@@ -1,12 +1,11 @@
-
-Dome war hier hahaha :)
 <!DOCTYPE html>
-<html>
-<head>
-
-<title> Website </title>
-
-</head>
-
-
+<html lang="de" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+      <p>Dome war hier</p>
+      <p>Max auch :-)</p>
+  </body>
 </html>
