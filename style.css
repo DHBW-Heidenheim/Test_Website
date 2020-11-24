@@ -1,0 +1,45 @@
+body{
+ font-family: Arial, Helvectia, sans-serif;
+ margin: 0px;
+}
+
+#top {
+ text-align: center;
+}
+
+#logo{
+ color: white;
+ background-color: rgb(211, 70, 94);
+ display: inline-block;
+ font-size: 32px;
+ font-weight: bold;
+ padding: 8px;
+ margin-top: 14px;
+}
+
+#logo-name{
+ font-size: 32px;
+ font-weight: bold;
+ margin: 14px;
+}
+
+#navigation a{
+  color: gray;
+  padding: 8px;
+}
+
+#navigation a:hover {
+  color: rgb(211, 70, 94);
+}
+
+#main{
+ max-width: 800px;
+ margin: auto;
+ padding: 14px;
+}
+
+#footer{
+ text-align: center;
+ color: gray;
+ padding: 14px;
+}
