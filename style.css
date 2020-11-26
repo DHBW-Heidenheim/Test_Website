@@ -137,8 +137,14 @@
         clear: both
     }
     
-    .column-50 {
+    .column-50-left {
         float: left;
+        width: 50%;
+        padding: 20px;
+    }
+    
+    .column-50-right {
+        float: right;
         width: 50%;
         padding: 20px;
     }
@@ -151,8 +157,8 @@
     /* Responsive Layout für die Columns wenn Bildschirm kleiner als 768px*/
     
     @media screen and (max-width: 768px) {
-        .column-50,
-        .column-50 {
+        .column-50-left,
+        .column-50-right {
             width: 100%;
             text-align: center;
         }
@@ -160,18 +166,21 @@
             margin: auto;
         }
     }
+    /* Responsive Layout für die Columns wenn Bildschirm größer als 2000px*/
     
     @media screen and (min-width: 2000px) {
-        .column-50,
-        .column-50 {
-            width: 50%;
-            background-color: rgb(180, 5, 40);
+        main,
+        footer,
+        {
+            width: 100%;
+            display: grid;
+            justify-content: center;
+            align-items: center;
         }
-        /* text-align: center;
-    
-    img {
-        margin: auto;
-    } */
+        .column-50-left,
+        .column-50-right {
+            width: 50%;
+        }
     }
     
     .productbutton {

@@ -5,10 +5,10 @@
 ***************************************************************************************************
 
 
-
-1. Navigationsleiste
+0. Bilder
+1. Navigationsleiste / Burgermenü
 2. Footer designen und mit Leben füllen
 3. Reponsive Design Ulltrawide 2000px - Dome und Max
 4. Hintergrundbilder 
 5. Produktbeschreibung auf Startseite, Ding des Jahres , Auszeichnung
-6.
+6. 
