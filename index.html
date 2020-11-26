@@ -1,7 +1,8 @@
 <!DOCTYPE html5>
 
 <html lang="de" dir="ltr">
-  <head>
+
+<head>
     <title>Pendix</title>
     <link rel="stylesheet" href="style.css">
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
@@ -9,142 +10,145 @@
 
 <body>
 
-  <div class="wrapper">
+    <div class="wrapper">
 
 
-<header> <!--Im Header ist die Navigationsleiste untergebracht-->
+        <header>
+            <!--Im Header ist die Navigationsleiste untergebracht-->
 
-    <div class="navigation">
-        <ul>
-            <li class="nav"><a href="index.html"> <img class="logo_klein" src="logo1.png" alt="Das ist unser Logo"> </a> </li>
-            <li class="nav"><a href="Produkt.html">Produkte</a></li>
-            <li class="nav"><a href="Service.html">Services</a></li>
-            <li class="nav"><a href="Kontakt.html">Kontakt</a></li>
-            <li class="nav"><a href="Über uns.html">Über uns</a></li>
-        </ul>
+            <div class="navigation">
+                <ul>
+                    <li class="nav">
+                        <a href="index.html"> <img class="logo_klein" src="logo1.png" alt="Das ist unser Logo"> </a>
+                    </li>
+                    <li class="nav"><a href="Produkt.html">Produkte</a></li>
+                    <li class="nav"><a href="Kontakt.html">Kontakt</a></li>
+                    <li class="nav"><a href="Über uns.html">Über uns</a></li>
+                </ul>
+            </div>
+
+        </header>
+        <!--Abschluss des Headerbereichs und der Navigationsleiste-->
+
+
+        <main>
+            <!--Hier beginnt der Mainteil der Website-->
+
+            <div id="main">
+
+                <!-- Das große Bild am Anfang der Seite -->
+                <div class="FrontPicture-Startseite">
+                    <div class="FrontPicture-Text-Startseite">
+                        <h1> Wir sind Bikepower </h1>
+                        <p> Werden Sie ein Teil der Mobilität von morgen und rüsten Sie noch heute Ihr geliebtes Fahrrad mit einem Elektroantrieb aus! Mit unserem Produkt ermöglichen wir Ihnen ganz einfach Ihr aktuelles Fahrrad in ein E-Bike zu verwandeln.
+                            Das funktioniert schnell und ist für jeden in ein paar Handgriffen machbar. </p>
+                    </div>
+                </div>
+
+                <!-- der Trennstreifen -->
+                <h2 class="separator"> Unsere Benefits</h2>
+
+                <!-- 2 Spalten Container mit links Bild rechts Text -->
+                <div class="container-1">
+                    <div class="row">
+                        <div class="column-50">
+                            <img src="Montur.svg" alt="Monturpiktogramm" width="350" height="500">
+                        </div>
+                        <div class="column-50">
+                            <h1> Das schaffen Sie mit links! </h1>
+                            <p>Unsere Produkte sind einfach an dem Großteil der handelsüblichen Fahrräder zu montieren. Mit der beiliegenden Montageanleitung können Sie im Handumdrehen und innerhalb kürzester Zeit ihr Fahrrad mit einem Elektroantrieb ausstatten.
+                                </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2 Spalten Container mit rechts Bild links Text -->
+                <div class="container-2">
+                    <div class="row">
+                        <div class="column-50">
+                            <h1> Worlwide und doch direkt vor Ihrer Haustüre </h1>
+                            <p> Unsere Produkte sind weltweit verfügbar. Wir möchten nämlich, dass die ganze Welt von unseren Produkten profitieren. Durch Produktionsstätten auf der ganzen Welt bleiben die Lieferwege trotzdem kurz. </p>
+                            <button class="button" style?="background-color:blue">Read more</button>
+                        </div>
+                        <div class="column-50">
+                            <img src="worldwide.svg" alt="Weltsymbol" width="350" height="500">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2 Spalten Container mit links Bild rechts Text -->
+                <div class="container-1">
+                    <div class="row">
+                        <div class="column-50">
+                            <img src="mitarbeiter.svg" alt="Mitarbeiterpiktogramm" width="350" height="500">
+                        </div>
+                        <div class="column-50">
+                            <h1> Unsere Mitarbeiter sind mit Herzblut dabei </h1>
+                            <p> ... und aus diesem Grund entlohnen wir sie mit fairen Arbeitsbedingungen. Wir können stolz behaupten, dass seit der Gründung von %%%%FIRMENNAME%%% bereits über 100 Familien von den Einnahmen unserer Mitarbeiter leben können.
+                                </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2 Spalten Container mit rechts Bild links Text -->
+                <div class="container-2">
+                    <div class="row">
+                        <div class="column-50">
+                            <h1> Die Umwelt geht uns alle etwas an </h1>
+                            <p> Uns ist der Umweltschutz sehr wichtig. Aus diesem Grund werden in unserem Produkt bis zu 70 Prozent recycelte Materialien verwendet. Zudem achten wir auf kurze Lieferwege. Das ist unser Beitrag für ein nachhaltiges Morgen.
+                                </p>
+                            <button class="button" style?="background-color:blue">Read more</button>
+                        </div>
+                        <div class="column-50">
+                            <img src="Nachhaltigkeit.svg" alt="Nachhaltigkeitssymbol" width="350" height="500">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Ende der Benefits -->
+
+
+
+            <div class="productbutton">
+                <button onclick="location.href='https://www.google.de'" type="button" name="button"> <p>Zu unseren Produkten</p> </button>
+                <!-- der onclick Befehl ist ein JavaScript Befehl-->
+            </div>
+            <!--Hier endet der Benefits Bereich-->
+        </main>
+        <!--Hier endet der Main Bereich-->
+
+
+        <footer>
+            <!--Hier beginnt der Footer Bereich-->
+
+            <div class="footerpicture">
+                <p>Hier kann noch ein Bild hinterlegt werden</p>
+            </div>
+
+            <div class="footer_content">
+                <div class="footer_contact">
+                    <p>Hallo ich bin Max</p>
+                </div>
+                <div class="footer_socialmedia">
+                    <p>Hier sollen die Social Media Logos hinterlegt werden.</p>
+                </div>
+                <div class="footer_contact">
+                    <p>Hier kommen die Kontaktdaten hin</p>
+                </div>
+            </div>
+
+            <div id="copyright">
+                <p>Copyright 2020 Pendix E-Bikes</p>
+            </div>
+
+        </footer>
+        <!--Hier endet der Footer Bereich-->
+
+
+
     </div>
-
-</header> <!--Abschluss des Headerbereichs und der Navigationsleiste-->
-
-
-<main> <!--Hier beginnt der Mainteil der Website-->
-
-  <div id="main">
-
-    <!-- Das große Bild am Anfang der Seite -->
-  	<div class="FrontPicture-Startseite">
-  			<div class="FrontPicture-Text-Startseite">
-  				<h1> Wir sind Bikepower </h1>
-  				<p> Werden Sie ein Teil der Mobilität von morgen und rüsten Sie noch heute Ihr geliebtes Fahrrad
-             mit einem Elektroantrieb aus! Mit unserem Produkt ermöglichen wir Ihnen ganz einfach Ihr aktuelles Fahrrad in ein
-             E-Bike zu verwandeln. Das funktioniert schnell und ist für jeden in ein paar Handgriffen machbar. </p>
-  			</div>
-  	</div>
-
-    <!-- der Trennstreifen -->
-    <h2 class="separator"> Unsere Benefits</h2>
-
-    <!-- 2 Spalten Container mit links Bild rechts Text -->
-  	<div class="container-1">
-    	<div class="row">
-      	<div class="column-50">
-  					<img src="Montur.svg" alt="Monturpiktogramm" width="350" height="500">
-      	</div>
-      	<div class="column-50">
-        	<h1> Das schaffen Sie mit links! </h1>
-  					<p>Unsere Produkte sind einfach an dem Großteil der handelsüblichen Fahrräder zu montieren.
-              Mit der beiliegenden Montageanleitung können Sie im Handumdrehen und innerhalb kürzester Zeit
-              ihr Fahrrad mit einem Elektroantrieb ausstatten. </p>
-      	</div>
-    	</div>
-  	</div>
-
-    <!-- 2 Spalten Container mit rechts Bild links Text -->
-    <div class="container-2">
-      <div class="row">
-        <div class="column-50">
-        	<h1> Worlwide und doch direkt vor Ihrer Haustüre </h1>
-  				<p> Unsere Produkte sind weltweit verfügbar. Wir möchten nämlich, dass die ganze Welt von unseren
-            Produkten profitieren. Durch Produktionsstätten auf der ganzen Welt bleiben die Lieferwege trotzdem kurz. </p>
-  						<button class="button" style?="background-color:blue">Read more</button>
-  		</div>
-  		  <div class="column-50">
-  				<img src="worldwide.svg" alt="Weltsymbol" width="350" height="500">
-  			</div>
-      </div>
-    </div>
-
-    <!-- 2 Spalten Container mit links Bild rechts Text -->
-  	<div class="container-1">
-    	<div class="row">
-      	<div class="column-50">
-  					<img src="mitarbeiter.svg" alt="Mitarbeiterpiktogramm" width="350" height="500">
-      	</div>
-      	<div class="column-50">
-        	<h1> Unsere Mitarbeiter sind mit Herzblut dabei </h1>
-  					<p> ... und aus diesem Grund entlohnen wir sie mit fairen Arbeitsbedingungen. Wir können
-              stolz behaupten, dass seit der Gründung von %%%%FIRMENNAME%%% bereits über 100 Familien
-              von den Einnahmen unserer Mitarbeiter leben können. </p>
-      	</div>
-    	</div>
-  	</div>
-
-    <!-- 2 Spalten Container mit rechts Bild links Text -->
-    <div class="container-2">
-      <div class="row">
-        <div class="column-50">
-        	<h1> Die Umwelt geht uns alle etwas an </h1>
-  				<p> Uns ist der Umweltschutz sehr wichtig. Aus diesem Grund werden in unserem Produkt bis zu
-            70 Prozent recycelte Materialien verwendet. Zudem achten wir auf kurze Lieferwege. Das ist
-            unser Beitrag für ein nachhaltiges Morgen. </p>
-  						<button class="button" style?="background-color:blue">Read more</button>
-  		</div>
-  		  <div class="column-50">
-  				<img src="Nachhaltigkeit.svg" alt="Nachhaltigkeitssymbol" width="350" height="500">
-  			</div>
-      </div>
-    </div>
-
-  </div>
-
-<!-- Ende der Benefits -->
-
-
-
-    <div class="productbutton">
-        <button onclick="location.href='https://www.google.de'" type="button" name="button"> <p>Zu unseren Produkten</p> </button>
-        <!-- der onclick Befehl ist ein JavaScript Befehl-->
-    </div> <!--Hier endet der Benefits Bereich-->
-</main> <!--Hier endet der Main Bereich-->
-
-
-<footer> <!--Hier beginnt der Footer Bereich-->
-
-  <div class="footerpicture">
-    <p>Hier kann noch ein Bild hinterlegt werden</p>
-  </div>
-
-  <div class="footer_content">
-    <div class="footer_contact">
-      <p>Hallo ich bin Max</p>
-    </div>
-    <div class="footer_socialmedia">
-      <p>Hier sollen die Social Media Logos hinterlegt werden.</p>
-    </div>
-    <div class="footer_contact">
-      <p>Hier kommen die Kontaktdaten hin</p>
-    </div>
-  </div>
-
-  <div id="copyright">
-        <p>Copyright 2020 Pendix E-Bikes</p>
-  </div>
-
-</footer> <!--Hier endet der Footer Bereich-->
-
-
-
-  </div>
 
 
 

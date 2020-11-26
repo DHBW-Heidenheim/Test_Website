@@ -1,6 +1,7 @@
 <!DOCTYPE html5>
 
 <html lang="de" dir="ltr">
+
 <head>
     <title>Pendix</title>
     <link rel="stylesheet" href="style.css">
@@ -9,103 +10,110 @@
 
 <body>
 
-  <div class="wrapper">
+    <div class="wrapper">
 
 
-<header> <!--Im Header ist die Navigationsleiste untergebracht-->
+        <header>
+            <!--Im Header ist die Navigationsleiste untergebracht-->
 
-    <div class="navigation">
-        <ul>
-            <li class="nav"><a href="index.html"> <img class="logo_klein" src="logo1.png" alt="Das ist unser Logo"> </a> </li>
-            <li class="nav"><a href="Produkt.html">Produkte</a></li>
-            <li class="nav"><a href="Service.html">Services</a></li>
-            <li class="nav"><a href="Kontakt.html">Kontakt</a></li>
-            <li class="nav"><a href="Über uns.html">Über uns</a></li>
-        </ul>
+            <div class="navigation">
+                <ul>
+                    <li class="nav">
+                        <a href="index.html"> <img class="logo_klein" src="logo1.png" alt="Das ist unser Logo"> </a>
+                    </li>
+                    <li class="nav"><a href="Produkt.html">Produkte</a></li>
+                    <li class="nav"><a href="Kontakt.html">Kontakt</a></li>
+                    <li class="nav"><a href="Über uns.html">Über uns</a></li>
+                </ul>
+            </div>
+
+        </header>
+        <!--Abschluss des Headerbereichs und der Navigationsleiste-->
+
+
+        <main>
+            <!--Hier beginnt der Mainteil der Website-->
+
+            <div id="main">
+
+                <!-- Das große Bild am Anfang der Seite -->
+                <div class="FrontPicture-Produktseite">
+                    <div class="FrontPicture-Text-Produktseite">
+                        <h1> Unsere Produkte </h1>
+                        <p> sooo ein geiles Produkt </p>
+                    </div>
+                </div>
+
+                <!-- der grüne Block mit Standard -->
+                <h2 class="separator">Standard Variante</h2>
+
+                <!-- 2 columns Produktinfos mit links Bild rechts Text -->
+                <div class="container-1">
+                    <div class="row">
+                        <div class="column-50">
+                            <img src="Fahrradbild_schlechte_Auflösung.png" alt="Fahrradbild" width="350" height="500">
+                        </div>
+                        <div class="column-50">
+                            <h1> Technische Daten </h1>
+                            <p> hier soll die Tabelle hin </p>
+                            <button class="button" style?="background-color:blue">Read more</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2 columns Produktinfos mit rechts Bild links Text -->
+            <div class="container-2">
+                <div class="row">
+                    <div class="column-50">
+                        <h1> Das Komplettpaket </h1>
+                        <p> Infos zum Paket </p>
+                        <button class="button" style?="background-color:blue">Read more</button>
+                    </div>
+                    <div class="column-50">
+                        <img src="#Bild vom Paket" alt="Hier sollen Produktbilder hin" width="350" height="500">
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- hier endet Bikestail  -->
+
+            <!-- der grüne Block mit Premium-->
+            <h2 class="separator">Premium Variante</h2>
+
+        </main>
+        <!--Hier endet der Main Bereich-->
+
+        <footer>
+            <!--Hier beginnt der Footer Bereich-->
+
+            <div class="footerpicture">
+                <p>Hier kann noch ein Bild hinterlegt werden</p>
+            </div>
+
+            <div class="footer_content">
+                <div class="footer_contact">
+                    <p>Hallo ich bin Max</p>
+                </div>
+                <div class="footer_socialmedia">
+                    <p>Hier sollen die Social Media Logos hinterlegt werden.</p>
+                </div>
+                <div class="footer_contact">
+                    <p>Hier kommen die Kontaktdaten hin</p>
+                </div>
+            </div>
+
+            <div id="copyright">
+                <p>Copyright 2020 Pendix E-Bikes</p>
+            </div>
+
+        </footer>
+        <!--Hier endet der Footer Bereich-->
+
+
+
     </div>
-
-</header> <!--Abschluss des Headerbereichs und der Navigationsleiste-->
-
-
-<main> <!--Hier beginnt der Mainteil der Website-->
-
-  <div id="main">
-
-    <!-- Das große Bild am Anfang der Seite -->
-  	<div class="FrontPicture-Produktseite">
-  			<div class="FrontPicture-Text-Produktseite">
-  				<h1> Unsere Produkte </h1>
-  				<p> sooo ein geiles Produkt </p>
-  			</div>
-  	</div>
-
-    <!-- der grüne Block mit Standard -->
-    <h2 class="separator">Standard Variante</h2>
-
-    <!-- 2 columns Produktinfos mit links Bild rechts Text -->
-  	<div class="container-1">
-    	<div class="row">
-      	<div class="column-50">
-  					<img src="Fahrradbild_schlechte_Auflösung.png" alt="Fahrradbild" width="350" height="500">
-      	</div>
-      	<div class="column-50">
-        	<h1> Technische Daten </h1>
-  					<p> hier soll die Tabelle hin </p>
-  						<button class="button" style?="background-color:blue">Read more</button>
-      	</div>
-    	</div>
-  	</div>
-  </div>
-
-    <!-- 2 columns Produktinfos mit rechts Bild links Text -->
-    <div class="container-2">
-      <div class="row">
-        <div class="column-50">
-        	<h1> Das Komplettpaket </h1>
-  				<p> Infos zum Paket </p>
-  						<button class="button" style?="background-color:blue">Read more</button>
-  		</div>
-  		  <div class="column-50">
-  				<img src="#Bild vom Paket" alt="Hier sollen Produktbilder hin" width="350" height="500">
-  			</div>
-      </div>
-    </div>
-
-
-    <!-- hier endet Bikestail  -->
-
-    <!-- der grüne Block mit Premium-->
-    <h2 class="separator">Premium Variante</h2>
-    
-</main> <!--Hier endet der Main Bereich-->
-
-<footer> <!--Hier beginnt der Footer Bereich-->
-
-  <div class="footerpicture">
-    <p>Hier kann noch ein Bild hinterlegt werden</p>
-  </div>
-
-  <div class="footer_content">
-    <div class="footer_contact">
-      <p>Hallo ich bin Max</p>
-    </div>
-    <div class="footer_socialmedia">
-      <p>Hier sollen die Social Media Logos hinterlegt werden.</p>
-    </div>
-    <div class="footer_contact">
-      <p>Hier kommen die Kontaktdaten hin</p>
-    </div>
-  </div>
-
-  <div id="copyright">
-        <p>Copyright 2020 Pendix E-Bikes</p>
-  </div>
-
-</footer> <!--Hier endet der Footer Bereich-->
-
-
-
-  </div>
 
 
 
