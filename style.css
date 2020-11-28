@@ -14,12 +14,25 @@
     body {
       background-color: white;
       margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
     }
 
     .wrapper {
       width: 100%;
       margin: 0 auto;
+    }
+
+    .navigation {
+      width: 100%;
+      text-align: center;
+      display: inline-block;
+      background-color: #86D414;
+    }
+
+    .nav {
+      display: inline-block;
+      list-style-type: none;
+      padding-left: 10px;
+      padding-right: 10px;
     }
 
     .nav a {
@@ -36,36 +49,12 @@
       text-decoration: underline;
     }
 
-    .navigation {
-      width: 100%;
-      text-align: center;
-      display: inline-block;
-      background-color: #86D414;
-    }
-
-    .nav {
-      display: inline-block;
-      list-style-type: none;
-      margin: 10 auto 10 auto;
-      padding-left: 10px;
-      padding-right: 10px;
-      /*background-color: grey;*/
-    }
-
     .logo_klein {
+      /*Hierbei handelt es sich um das Logo in der Navigationsleiste*/
       width: 65px;
     }
 
-    /* .logo_home {
-
-}
-
-#main{
- margin: 10 auto 10 auto;
- text-align: center;
-}
-
-/*Das große Bild am Anfang der Produktseite */
+    /*Das große Bild am Anfang der Produktseite */
     .FrontPicture-Startseite {
       background-color: lightblue;
       background-image: url('logo1.png');
@@ -157,7 +146,7 @@
       padding: 20px;
     }
 
-
+    /*Das sind die Footer Spaltern, die durch diesen Text designt werden*/
     .column-footer-left,
     .column-footer-middle,
     .column-footer-right {
@@ -170,8 +159,7 @@
       line-height: 120%;
     }
 
-
-    .column-footer-left a{
+    .column-footer-left a {
       text-decoration: none;
       color: white;
     }
@@ -179,7 +167,7 @@
     .footer {
       background-color: #4682B4;
       text-align: center;
-      color:white;
+      color: white;
     }
 
     .footer_content {
@@ -188,9 +176,9 @@
       text-align: left;
     }
 
-
     .social_media img {
       width: 50px;
+      height: 80px;
       float: left;
       padding-left: 10px;
       padding-right: 10px;
@@ -209,6 +197,7 @@
       max-width: 100%;
     }
 
+    /************************************************************************************************************************************/
     /* Responsive Layout für die Columns wenn Bildschirm kleiner als 768px*/
     @media screen and (max-width: 768px) {
 
@@ -237,7 +226,7 @@
       }
 
       .container-1,
-      .container-2{
+      .container-2 {
         padding-left: 5px;
         padding-right: 5px;
         padding-top: 1px;
@@ -245,6 +234,8 @@
       }
     }
 
+    /************************************************************************************************************************************/
+    /************************************************************************************************************************************/
     /* Responsive Layout für die Columns wenn Bildschirm größer als 2000px*/
     @media screen and (min-width: 2000px) {
 
@@ -266,6 +257,7 @@
       }
     }
 
+    /************************************************************************************************************************************/
     .productbutton {
       text-align: center;
       /*Hierdurch wird der Button zentriert*/
