@@ -18,8 +18,13 @@
 
     h1{
       font-size: 45px;
+      text-align: center;
     }
 
+    h2{
+      text-align: center;
+    }
+    
     .wrapper {
       width: 100%;
       margin: 0 auto;
@@ -61,7 +66,7 @@
     /*Das große Bild am Anfang der Produktseite */
     .FrontPicture-Startseite {
       background-color: lightblue;
-      background-image: url('AdobeStock_Frontpicture1.jpeg');
+      background-image: url('AdobeStock_Frontpicture1_1500x1000.jpg');
       height: 50%;
       background-repeat: no-repeat;
       background-size: cover;
@@ -86,7 +91,7 @@
     /*Das große Bild am Anfang der Produktseite */
     .FrontPicture-Produktseite {
       background-color: lightblue;
-      background-image: url('AdobeStock_Frontpicture2.jpeg');
+      background-image: url('AdobeStock_Frontpicture2_1637x1093.jpg');
       height: 50%;
       background-repeat: no-repeat;
       background-size: cover;
@@ -209,6 +214,7 @@
       display: block;
       height: auto;
       max-width: 100%;
+      margin: auto;
     }
 
     /************************************************************************************************************************************/
