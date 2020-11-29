@@ -290,3 +290,190 @@
       /*Hier wird die Größe der Benefit Logos bestimmt*/
       width: 50%;
     }
+	
+	/*Tabelle mir den Technischen Daten */
+	table {
+	  font-family: arial, sans-serif;
+	  border-collapse: collapse;
+	  width: 100%;
+	}
+
+	td, th {
+	  border: 1px solid #dddddd;
+	  text-align: left;
+	  padding: 8px;
+	}
+
+	tr:nth-child(even) {
+	  background-color: #86D414;
+	}
+
+		/*Das große Bild am Anfang der Seite */
+	.FrontPicture {
+		/* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+	  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");*/
+		background-color: lightblue;
+		background-image: url('Adobe_Bild.png');
+		height: 50%;
+		background-repeat: no-repeat;
+	  background-size: cover;
+		background-position: center;
+		position: relative;
+	  padding: 200px;
+		/*color: black;
+	  text-align: center;
+		margin: 0;*/
+	}
+
+	/* Der Text mittig auf dem FrontPicture*/
+	.FrontPicture-Text {
+	  text-align: center;
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	  color: white;
+	}
+
+	.Inhaltstrenner{
+		background-color: #77A1D9;
+		background-size: cover;
+		background-position: center;
+		color: white;
+		padding: 30px;
+		text-align: center;	
+		margin-bottom: 0px;
+	}
+
+	.product-data{
+		padding: 55px;
+	}
+
+	/* Erster Container mit Produktdaten */
+	.container-1-Produktdaten{
+		padding: 0px 64px 5px 64px;
+		background-color: white;
+	}
+
+	/* Zweiter Container mit Produktdaten */
+	.container-produktdaten{	
+		padding: 10px 20px 10px 20px;
+		background-color: #BDD9F2;
+		margin: auto;
+		font-family: arial;
+	}
+
+	.b-white{
+		background-color:white!important;
+	}
+
+	.row:after {
+	  content: "";
+	  display: table;
+	  clear: both
+	}
+
+	.column-50 {
+	  float: left;
+	  width: 50%;
+	  padding: 20px;
+	}
+
+
+
+	.button {
+
+	  border: none;
+	  color: white;
+	  padding: 14px 28px;
+	  font-size: 16px;
+	  cursor: pointer;
+	  background-color: #4CAF50;
+	  float: right
+	}
+
+	img {
+	  display: block;
+	  height: auto;
+	  max-width: 100%;
+	}
+
+	.container-1-Produktdaten img{
+		width: auto;
+	}
+
+	.quantity, .color{	
+		float: right;
+		width: 100px;
+		margin-right: 40%;
+	}
+
+	.buy-button {
+		border: 1px solid #8bd977;
+		width: 70%;
+		text-align: center;
+		margin-top: 20px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 20px;
+		margin-top: 5%;
+	}
+
+	.buy-button a {
+		color: #8bd977;
+		text-decoration: none;
+	}
+	.buy-button:hover {
+		background: #8bd977;
+	}
+	.buy-button a:hover {
+		color: white;
+		text-decoration: none;
+	}
+	.white-gap{
+		padding: 10px;
+	}
+	.text-center{
+		text-decoration: none;
+		text-align: center;
+	}
+	.p-b-0{
+		padding-bottom: 0px;
+	}
+	.p-t-0{
+		padding-top: 0px;
+	}
+	.f-25{
+		font-size: 25px;
+	}
+	.f-10{
+		font-size: 10px;
+	}
+	.m-t-35{
+		margin-top: 35px;
+	}
+	.column-50 p{
+		text-align: justify;
+		line-height: 20px;
+	}
+	/* Responsive Layout für die Columns wenn Bildschirm kleiner als 768px*/
+	@media screen and (max-width: 768px) {
+	  .column-50,
+	  .column-50 {
+		width: 100%;
+		text-align: center;
+	  }
+	  img {
+		margin: auto;
+	  }
+	}
+
+	/* Responsive layout - when the screen is less than 768px wide, make the
+	navigation links stack on top of each other instead of next to each other */
+	@media screen and (max-width: 768px) {
+	  .navbar a {
+		float: none;
+		width: 100%;
+	  }
+	}
+
