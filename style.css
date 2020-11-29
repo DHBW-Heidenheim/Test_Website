@@ -16,6 +16,15 @@
       margin: 0;
     }
 
+    h1{
+      font-size: 45px;
+      text-align: center;
+    }
+
+    h2{
+      text-align: center;
+    }
+    
     .wrapper {
       width: 100%;
       margin: 0 auto;
@@ -57,13 +66,14 @@
     /*Das große Bild am Anfang der Produktseite */
     .FrontPicture-Startseite {
       background-color: lightblue;
-      background-image: url('logo1.png');
+      background-image: url('AdobeStock_Frontpicture1_1500x1000.jpg');
       height: 50%;
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
       position: relative;
-      padding: 250px;
+      padding: 300px;
+      background-attachment: fixed;
     }
 
     /* Der Text mittig auf dem FrontPicture Produktseite*/
@@ -73,19 +83,21 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      color: black;
+      color: white;
+      text-shadow: 5px 5px 10px black;
+      font-weight: bold;
     }
 
     /*Das große Bild am Anfang der Produktseite */
     .FrontPicture-Produktseite {
       background-color: lightblue;
-      background-image: url('Fahrradbild_schlechte_Auflösung.png');
+      background-image: url('AdobeStock_Frontpicture2_1637x1093.jpg');
       height: 50%;
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
       position: relative;
-      padding: 250px;
+      padding: 300px;
       background-attachment: fixed;
     }
 
@@ -97,6 +109,8 @@
       left: 50%;
       transform: translate(-50%, -50%);
       color: white;
+      text-shadow: 5px 5px 10px black;
+      font-weight: bold;
     }
 
     /* Der Balken zwischen den einzelnen Abschnitten */
@@ -108,6 +122,11 @@
       padding: 30px;
       text-align: center;
       margin: 0;
+    }
+
+    .wrapper_für_container{
+      max-width: 1400px;
+      margin: auto;
     }
 
     /* Erster Container mit 2 Spalten links Bild rechts Text*/
@@ -195,6 +214,7 @@
       display: block;
       height: auto;
       max-width: 100%;
+      margin: auto;
     }
 
     /************************************************************************************************************************************/
@@ -238,7 +258,6 @@
     /************************************************************************************************************************************/
     /* Responsive Layout für die Columns wenn Bildschirm größer als 2000px*/
     @media screen and (min-width: 2000px) {
-
       main,
       footer,
         {
