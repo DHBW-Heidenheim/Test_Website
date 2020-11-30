@@ -30,7 +30,7 @@
       margin: 0 auto;
     }
 
-    /*navnavnanvnavnavnav__Anfang des Sytles der Navigationsleiste___navnavnanvnavnavnavnavnavnanvnavnavnav*/
+    /*navnavnanvnavnavnav__Anfang des Styles der Navigationsleiste___navnavnanvnavnavnavnavnavnanvnavnavnav*/
     .topnav img {
       height: 20px;
     }
@@ -141,7 +141,10 @@
 
     /*navnavnanvnavnavnav__Ende des Styles der Navigationsleiste___navnavnanvnavnavnavnavnavnanvnavnavnav*/
 
-    /*Das große Bild am Anfang der Produktseite */
+
+    /* ----------------------------- Styles für die Startseite --------------------------------------- */
+
+    /*Das große Bild am Anfang der Startseite */
     .FrontPicture-Startseite {
       background-color: lightblue;
       background-image: url('AdobeStock_Frontpicture1_1500x1000.jpg');
@@ -154,7 +157,7 @@
       background-attachment: fixed;
     }
 
-    /* Der Text mittig auf dem FrontPicture Produktseite*/
+    /* Der Text mittig auf dem FrontPicture Startseite*/
     .FrontPicture-Text-Startseite {
       text-align: center;
       position: absolute;
@@ -166,6 +169,68 @@
       font-weight: bold;
     }
 
+
+  /* ----------------------------- Ende der Styles für die Startseite --------------------------------------- */
+
+
+ /* -------------------Container und seperator, die wir auf mehreren Seiten benutzen ----------------------- */
+
+ /* Der Balken zwischen den einzelnen Abschnitten */
+ .separator {
+   background-color: #77A1D9;
+   background-size: cover;
+   background-position: center;
+   color: white;
+   padding: 30px;
+   text-align: center;
+   margin: 0;
+ }
+
+ .wrapper_für_container {
+   max-width: 1400px;
+   margin: auto;
+ }
+
+ /* Erster Container mit 2 Spalten links Bild rechts Text*/
+ .container-1 {
+   padding-left: : 64px;
+   padding-right: 64px;
+   padding-top: 30px;
+   padding-bottom: 30px;
+   background-color: white;
+ }
+
+ /* Zweiter Container mit 2 Spalten links Text rechts Bild */
+ .container-2 {
+   padding-left: : 64px;
+   padding-right: 64px;
+   padding-top: 30px;
+   padding-bottom: 30px;
+   background-color: #BDD9F2;
+ }
+
+ .row:after {
+   content: "";
+   display: table;
+   clear: both
+ }
+
+ .column-50-left {
+   float: left;
+   width: 50%;
+   padding: 20px;
+ }
+
+ .column-50-right {
+   float: right;
+   width: 50%;
+   padding: 20px;
+ }
+
+ /* -------------------Ende Container und seperator, die wir auf mehreren Seiten benutzen ------------- */
+
+
+ /* ----------------------------Styles für die Produktseite ------------------------------------------- */
     /*Das große Bild am Anfang der Produktseite */
     .FrontPicture-Produktseite {
       background-color: lightblue;
@@ -191,230 +256,10 @@
       font-weight: bold;
     }
 
-    /* Der Balken zwischen den einzelnen Abschnitten */
-    .separator {
-      background-color: #77A1D9;
-      background-size: cover;
-      background-position: center;
-      color: white;
-      padding: 30px;
-      text-align: center;
-      margin: 0;
-    }
 
-    .wrapper_für_container {
-      max-width: 1400px;
-      margin: auto;
-    }
-
-    /* Erster Container mit 2 Spalten links Bild rechts Text*/
-    .container-1 {
-      padding-left: : 64px;
-      padding-right: 64px;
-      padding-top: 30px;
-      padding-bottom: 30px;
-      background-color: white;
-    }
-
-    /* Zweiter Container mit 2 Spalten links Text rechts Bild */
-    .container-2 {
-      padding-left: : 64px;
-      padding-right: 64px;
-      padding-top: 30px;
-      padding-bottom: 30px;
-      background-color: #BDD9F2;
-    }
-
-    .row:after {
-      content: "";
-      display: table;
-      clear: both
-    }
-
-    .column-50-left {
-      float: left;
-      width: 50%;
-      padding: 20px;
-    }
-
-    .column-50-right {
-      float: right;
-      width: 50%;
-      padding: 20px;
-    }
     /* Damit das Bild vom Bikestail Komplettpaket rund ist  */
     .round-image-komplettpaket{
       border-radius: 30%;
-    }
-
-    /*Das sind die Footer Spaltern, die durch diesen Text designt werden*/
-    .column-footer-left,
-    .column-footer-middle,
-    .column-footer-right {
-      float: left;
-      width: 33.33%;
-      padding-left: 20px;
-      padding-right: 20px;
-      padding-top: 20px;
-      padding-bottom: 20px;
-      line-height: 120%;
-    }
-
-    .column-footer-left a {
-      text-decoration: none;
-      color: white;
-    }
-
-    .footer {
-      background-color: #4682B4;
-      text-align: center;
-      color: white;
-    }
-
-    .footer_content {
-      width: 60%;
-      display: inline-block;
-      text-align: left;
-    }
-
-    .social_media img {
-      width: 50px;
-      height: 80px;
-      float: left;
-      padding-left: 10px;
-      padding-right: 10px;
-      padding-top: 10px;
-      padding-bottom: 10px;
-      align-items: center;
-    }
-
-    .social_media img:hover {
-      width: 60px;
-    }
-
-    img {
-      display: block;
-      height: auto;
-      max-width: 100%;
-      margin: auto;
-    }
-
-    /************************************************************************************************************************************/
-    /* Responsive Layout für die Columns wenn Bildschirm kleiner als 768px*/
-    @media screen and (max-width: 768px) {
-
-      .column-50-left,
-      .column-50-right,
-      .column-footer-left,
-      .column-footer-middle,
-      .column-footer-right {
-        width: 100%;
-        padding-left: 80px;
-        padding-right: 80px;
-      }
-
-      .column-footer-left,
-      .column-footer-middle,
-      .column-footer-right {
-        padding-top: 5px;
-        padding-bottom: 5px;
-        line-height: 120%;
-        padding-left: 20px;
-        padding-right: 20px;
-      }
-
-      img {
-        margin: auto;
-      }
-
-      .container-1,
-      .container-2 {
-        padding-left: 5px;
-        padding-right: 5px;
-        padding-top: 1px;
-        padding-bottom: 1px;
-      }
-    }
-
-    /************************************************************************************************************************************/
-    /************************************************************************************************************************************/
-    /* Responsive Layout für die Columns wenn Bildschirm größer als 2000px*/
-    @media screen and (min-width: 2000px) {
-
-      main,
-      footer,
-        {
-        width: 100%;
-        display: grid;
-        justify-content: center;
-        align-items: center;
-      }
-
-      .column-50-left,
-      .column-50-right,
-      .column-footer-left,
-      .column-footer-middle,
-      .column-footer-right {
-        width: 50%;
-      }
-    }
-
-    /************************************************************************************************************************************/
-    .gotoproductbutton {
-      text-align: center;
-    }
-
-    .gotoproductbutton button {
-      text-align: center;
-      font-size: 18px;
-      font-weight: bolder;
-      background-color: #4CAF50;
-      color: white;
-      margin-top: 30px;
-      margin-bottom: 30px;
-      border-radius: 5px;
-      border: none;
-      /*Hier wird die Geschwindigkeit des Buttons geregelt*/
-      box-shadow: 10px 15px 10px -7px black;
-      transition: ease-in-out all 300ms;
-      /*Hierdurch wird die Breite des Buttons geregelt*/
-      padding-left: 5%;
-      padding-right: 5%;
-    }
-
-    .gotoproductbutton button:hover {
-      background-color: white;
-      color: #0B9BCB;
-      border: solid 3px #0B9BCB;
-      transform: translate(0px, -10px);
-      box-shadow: 0px 30px 10px -10px grey;
-    }
-
-    .read_more_button {
-      border: none;
-      color: white;
-      padding: 14px 28px;
-      font-size: 16px;
-      cursor: pointer;
-      background-color: #4CAF50;
-      text-align: center;
-      border-radius: 50px;
-      border: none;
-      box-shadow: 10px 15px 10px -7px black;
-      transition: ease-in-out all 300ms;
-    }
-
-    .read_more_button:hover {
-      background-color: white;
-      color: #0B9BCB;
-      border: solid 3px #0B9BCB;
-      transform: translate(0px, -10px);
-      box-shadow: 0px 30px 10px -10px grey;
-    }
-
-    .logo_home {
-      /*Hier wird die Größe der Benefit Logos bestimmt*/
-      width: 50%;
     }
 
     /*Tabelle mir den Technischen Daten */
@@ -459,12 +304,6 @@
       background-color: white;
       margin: auto;
       font-family: arial;
-    }
-
-    .row:after {
-      content: "";
-      display: table;
-      clear: both
     }
 
     .column-50 {
@@ -548,6 +387,190 @@
       line-height: 20px;
     }
 
+/* ----------------------- Ende der Styles für die Produktseite ------------------------------------------- */
+
+
+/* -------------------------------- Styles für den Footer ------------------------------------------------- */
+
+    /*Das sind die Footer Spaltern, die durch diesen Text designt werden*/
+    .column-footer-left,
+    .column-footer-middle,
+    .column-footer-right {
+      float: left;
+      width: 33.33%;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      line-height: 120%;
+    }
+
+    .column-footer-left a {
+      text-decoration: none;
+      color: white;
+    }
+
+    .footer {
+      background-color: #4682B4;
+      text-align: center;
+      color: white;
+    }
+
+    .footer_content {
+      width: 60%;
+      display: inline-block;
+      text-align: left;
+    }
+
+    .social_media img {
+      width: 50px;
+      height: 80px;
+      float: left;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      align-items: center;
+    }
+
+    .social_media img:hover {
+      width: 60px;
+    }
+
+    img {
+      display: block;
+      height: auto;
+      max-width: 100%;
+      margin: auto;
+    }
+
+/* -------------------------------- Ende der Styles für den Footer ------------------------------------------------- */
+
+/************************************************************************************************************************************/
+    /* Responsive Layout für die Columns wenn Bildschirm kleiner als 768px*/
+    @media screen and (max-width: 768px) {
+
+      .column-50-left,
+      .column-50-right,
+      .column-footer-left,
+      .column-footer-middle,
+      .column-footer-right {
+        width: 100%;
+        padding-left: 80px;
+        padding-right: 80px;
+      }
+
+      .column-footer-left,
+      .column-footer-middle,
+      .column-footer-right {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        line-height: 120%;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+      img {
+        margin: auto;
+      }
+
+      .container-1,
+      .container-2 {
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+      }
+    }
+
+    /************************************************************************************************************************************/
+    /************************************************************************************************************************************/
+    /* Responsive Layout für die Columns wenn Bildschirm größer als 2000px*/
+    @media screen and (min-width: 2000px) {
+
+      main,
+      footer,
+        {
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .column-50-left,
+      .column-50-right,
+      .column-footer-left,
+      .column-footer-middle,
+      .column-footer-right {
+        width: 50%;
+      }
+    }
+
+    /************************************************************************************************************************************/
+
+    /* Ich weiß nicht genau welche Buttons hier gestylt werden, deswegen sind die keiner Seite zugeordnet */
+    /* Daniel 30.11.2020 */
+    
+    .gotoproductbutton {
+      text-align: center;
+    }
+
+    .gotoproductbutton button {
+      text-align: center;
+      font-size: 18px;
+      font-weight: bolder;
+      background-color: #4CAF50;
+      color: white;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      border-radius: 5px;
+      border: none;
+      /*Hier wird die Geschwindigkeit des Buttons geregelt*/
+      box-shadow: 10px 15px 10px -7px black;
+      transition: ease-in-out all 300ms;
+      /*Hierdurch wird die Breite des Buttons geregelt*/
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+
+    .gotoproductbutton button:hover {
+      background-color: white;
+      color: #0B9BCB;
+      border: solid 3px #0B9BCB;
+      transform: translate(0px, -10px);
+      box-shadow: 0px 30px 10px -10px grey;
+    }
+
+    .read_more_button {
+      border: none;
+      color: white;
+      padding: 14px 28px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: #4CAF50;
+      text-align: center;
+      border-radius: 50px;
+      border: none;
+      box-shadow: 10px 15px 10px -7px black;
+      transition: ease-in-out all 300ms;
+    }
+
+    .read_more_button:hover {
+      background-color: white;
+      color: #0B9BCB;
+      border: solid 3px #0B9BCB;
+      transform: translate(0px, -10px);
+      box-shadow: 0px 30px 10px -10px grey;
+    }
+
+    .logo_home {
+      /*Hier wird die Größe der Benefit Logos bestimmt*/
+      width: 50%;
+    }
+
+
+
+
     /* Responsive Layout für die Columns wenn Bildschirm kleiner als 768px*/
     @media screen and (max-width: 768px) {
 
@@ -561,13 +584,3 @@
         margin: auto;
       }
     }
-
-    /* Responsive layout - when the screen is less than 768px wide, make the
-	navigation links stack on top of each other instead of next to each other */
-/*    @media screen and (max-width: 768px) {
-      .navbar a {
-        float: none;
-        width: 100%;
-      }
-    }
-    Wird meiner Meinung nach nicht mehr benötigt Rampp, 30. November 2020, 20:39*/
