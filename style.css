@@ -164,6 +164,10 @@
       width: 50%;
       padding: 20px;
     }
+    /* Damit das Bild vom Bikestail Komplettpaket rund ist  */
+    .round-image-komplettpaket{
+      border-radius: 30%;
+    }
 
     /*Das sind die Footer Spaltern, die durch diesen Text designt werden*/
     .column-footer-left,
@@ -354,8 +358,6 @@
 
     /*Das große Bild am Anfang der Seite */
     .FrontPicture {
-      /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-      /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");*/
       background-color: lightblue;
       background-image: url('Adobe_Bild.png');
       height: 50%;
@@ -364,9 +366,6 @@
       background-position: center;
       position: relative;
       padding: 200px;
-      /*color: black;
-	  text-align: center;
-		margin: 0;*/
     }
 
     /* Der Text mittig auf dem FrontPicture*/
