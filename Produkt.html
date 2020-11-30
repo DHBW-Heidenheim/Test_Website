@@ -15,17 +15,34 @@
 
     <header>
       <!--Im Header ist die Navigationsleiste untergebracht-->
-
       <div class="navigation">
-        <ul>
-          <li class="nav">
-            <a href="index.html"> <img class="logo_klein" src="logo1.png" alt="Das ist unser Logo"> </a>
-          </li>
-          <li class="nav"><a href="Produkt.html">Produkte</a></li>
-          <li class="nav"><a href="Kontakt.html">Kontakt</a></li>
-          <li class="nav"><a href="Über uns.html">Über uns</a></li>
-        </ul>
+        <div class="topnav" id=myTopnav>
+          <a href="index.html"><img class="logo_klein" src="logo1.png" alt="Das ist unser Logo"> </a>
+          <a href="index.html">Home</a>
+          <div class="dropdown">
+            <button class="dropbtn">Produkte<i class="fa fa-carte-down"></i> </button>
+            <div class="dropdown-content">
+              <a href="Produkt.html">Basic</a>
+              <a href="Produkt.html">Luxus</a>
+            </div>
+          </div>
+          <a href="Kontakt.html">Kontakt</a>
+          <a href="Über uns.html">Über uns</a>
+          <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
       </div>
+      <!--Das ist das Script für die Navigationsleiste-->
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+      </script>
+      <!--Ende Script Navigationsleiste-->
 
     </header>
     <!--Abschluss des Headerbereichs und der Navigationsleiste-->
