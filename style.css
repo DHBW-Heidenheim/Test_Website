@@ -407,6 +407,17 @@
 
 /* ----------------------- Ende der Styles für die Seite Datenschutz--------------------------------------- */
 
+/* ----------------------- Anfang des Styles für die Seite Übers uns -------------------------------------- */
+    .aboutus {
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+
+    .aboutus p {
+      line-height: 1.5rem;
+    }
+
+/* ---------------------- Ende des Styles für die Seite über uns ------------------------------------------ */
 
 /* -------------------------------- Styles für den Footer ------------------------------------------------- */
 
