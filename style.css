@@ -30,7 +30,7 @@
       margin: 0 auto;
     }
 
-    /*navnavnanvnavnavnav__Anfang des Styles der Navigationsleiste___navnavnanvnavnavnavnavnavnanvnavnavnav*/
+    /*------------------------------ Anfang Style für die Navigationsleiste ---------------------------- */
     .topnav img {
       height: 20px;
     }
@@ -139,7 +139,7 @@
       }
     }
 
-    /*navnavnanvnavnavnav__Ende des Styles der Navigationsleiste___navnavnanvnavnavnavnavnavnanvnavnavnav*/
+    /*------------------------------ Ende Style für die Navigationsleiste ---------------------------- */
 
 
     /* ----------------------------- Styles für die Startseite --------------------------------------- */
@@ -389,6 +389,24 @@
 
 /* ----------------------- Ende der Styles für die Produktseite ------------------------------------------- */
 
+/* ----------------------- Anfang der Styles für die Seite Datenschutz------------------------------------- */
+
+    .datenschutz {
+      padding-left: 20%;
+      padding-right: 20%;
+      padding-top: 2%;
+      padding-bottom: 2%;
+    }
+
+    @media screen and (max-width: 768px) {
+     .datenschutz{
+        padding-left: 5%;
+        padding-right: 5%;
+      }
+    }
+
+/* ----------------------- Ende der Styles für die Seite Datenschutz--------------------------------------- */
+
 
 /* -------------------------------- Styles für den Footer ------------------------------------------------- */
 
@@ -510,7 +528,7 @@
 
     /* Ich weiß nicht genau welche Buttons hier gestylt werden, deswegen sind die keiner Seite zugeordnet */
     /* Daniel 30.11.2020 */
-    
+
     .gotoproductbutton {
       text-align: center;
     }
