@@ -25,6 +25,19 @@
       text-align: center;
     }
 
+    img {
+      display: block;
+      height: auto;
+      max-width: 100%;
+      margin: auto;
+    }
+
+    iframe{
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 100%;
+    }
+
     .wrapper {
       width: 100%;
       margin: 0 auto;
@@ -262,6 +275,15 @@
       border-radius: 30%;
     }
 
+    /* Dritter Container mit Produktdaten */
+    .column-center{
+      float: right;
+    	padding: 20px;
+      width: 100%;
+      margin: auto;
+      text-align: center;
+    }
+
     /*Tabelle mir den Technischen Daten */
     table {
       border-collapse: collapse;
@@ -307,12 +329,6 @@
       float: left;
       width: 50%;
       padding: 20px;
-    }
-
-    img {
-      display: block;
-      height: auto;
-      max-width: 100%;
     }
 
     .container-1-Produktdaten img {
@@ -463,12 +479,6 @@
       width: 60px;
     }
 
-    img {
-      display: block;
-      height: auto;
-      max-width: 100%;
-      margin: auto;
-    }
 
 /* -------------------------------- Ende der Styles für den Footer ------------------------------------------------- */
 
