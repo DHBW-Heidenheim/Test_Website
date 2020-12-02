@@ -264,7 +264,6 @@
 
     /*Tabelle mir den Technischen Daten */
     table {
-      font-family: arial, sans-serif;
       border-collapse: collapse;
       width: 100%;
     }
@@ -295,7 +294,6 @@
       padding: 10px 20px 10px 20px;
       background-color: #BDD9F2;
       margin: auto;
-      font-family: arial;
     }
 
     /* Zweiter Container mit Produktdaten */
@@ -303,7 +301,6 @@
       padding: 10px 20px 10px 20px;
       background-color: white;
       margin: auto;
-      font-family: arial;
     }
 
     .column-50 {
