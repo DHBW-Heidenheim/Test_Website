@@ -148,7 +148,7 @@
     .FrontPicture-Startseite {
       background-color: lightblue;
       background-image: url('AdobeStock_Frontpicture1_1500x1000.jpg');
-      height: 50%;
+      height: 100%;
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
@@ -235,7 +235,7 @@
     .FrontPicture-Produktseite {
       background-color: lightblue;
       background-image: url('AdobeStock_Frontpicture2_1637x1093.jpg');
-      height: 50%;
+      height: 100%;
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
