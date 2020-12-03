@@ -420,6 +420,58 @@
 
 /* ----------------------- Ende der Styles für die Seite Datenschutz--------------------------------------- */
 
+/*Beginn des Designs der Seite Kontakt*/
+    .contact {
+      padding-left: 10%;
+      padding-right: 10%;
+      margin-bottom: 4rem;
+    }
+
+    .contact p{
+      line-height: 1.5rem;
+    }
+
+    .mapouter {
+      height: 50%;
+      display: flex;
+      border: none;
+
+    }
+
+    .gmap_canvas {
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    }
+
+    .gmap_canvas iframe {
+      width: 100%;
+      height: 100%;
+    }
+
+    .contact h2 {
+      margin-bottom: 0.25em;
+      text-align: center;
+    }
+
+    .contact hr {
+      margin-top: 0.25em;
+    }
+
+    @media screen and (max-width: 768px) {
+      .gmap_canvas{
+        padding-left: 0%;
+        padding-right: 0%;
+      }
+    }
+
+
+
+
+
+
+/*Ende des Designs der Seite Kontakt*/
 /* ----------------------- Anfang des Styles für die Seite Übers uns -------------------------------------- */
     .aboutus {
       padding-left: 10%;
