@@ -430,6 +430,69 @@
       line-height: 1.5rem;
     }
 
+    .garage_ueberuns{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .garage_ueberuns img {
+      width: 50%
+    }
+
+    .employee {
+      margin-bottom: 5em;
+    }
+
+    .employee-detail {
+      display: flex;
+    }
+
+    .employee-picture {
+      width: 40%;
+    }
+
+    .employee-picture img {
+      width: 300px;
+      height: auto;
+      position: relative;
+    }
+
+    .employee-text {
+      width: 60%;
+      margin-left: 5%;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+
+    .employee h2 {
+      margin-bottom: 0.25em;
+      text-align: center;
+    }
+
+    .employee hr {
+      margin-top: 0.25em;
+    }
+
+    @media screen and (max-width: 768px) {
+      .garage_ueberuns img{
+        width: 100%;
+      }
+
+      .employee-detail{
+        display: block;
+      }
+      .employee-picture{
+        width: 100%;
+      }
+
+      .employee-text {
+        width: 100%;
+        margin-left: 0%;
+      }
+    }
+
+
 /* ---------------------- Ende des Styles für die Seite über uns ------------------------------------------ */
 
 /* -------------------------------- Styles für den Footer ------------------------------------------------- */
