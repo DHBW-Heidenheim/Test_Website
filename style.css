@@ -258,7 +258,7 @@
 }
 
 .Untertext-Produktbilder{
-  text-align: center; 
+  text-align: center;
 }
 
 
@@ -518,10 +518,9 @@
     }
 
     .gmap_canvas {
-    width: 80%;
-    padding-left: 10%;
-    padding-right: 10%;
-    display: flex;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
     }
 
     .gmap_canvas iframe {
@@ -535,13 +534,19 @@
     }
 
     .contact hr {
-      margin-top: 0.25em;
+      margin-top: 0.25rem;
+      border: solid 0.1rem;
+      border-radius: 3rem;
+      color: #68C902;
     }
 
     @media screen and (max-width: 768px) {
       .gmap_canvas{
-        padding-left: 0%;
-        padding-right: 0%;
+      padding-left: 0%;
+      padding-right: 0%;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
       }
     }
 
@@ -572,7 +577,7 @@
     }
 
     .employee {
-      margin-bottom: 5em;
+      margin-bottom: 3rem;
     }
 
     .employee-detail {
@@ -580,7 +585,7 @@
     }
 
     .employee-picture {
-      width: 40%;
+      width: 50%;
     }
 
     .employee-picture img {
@@ -590,7 +595,7 @@
     }
 
     .employee-text {
-      width: 60%;
+      width: 50%;
       margin-left: 5%;
       margin-top: auto;
       margin-bottom: auto;
@@ -601,8 +606,15 @@
       text-align: center;
     }
 
+    .employee h3{
+      text-align: center;
+    }
+
     .employee hr {
-      margin-top: 0.25em;
+      margin-top: 0.25rem;
+      border: solid 0.1rem;
+      border-radius: 3rem;
+      color: #68C902;
     }
 
     @media screen and (max-width: 768px) {
