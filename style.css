@@ -207,7 +207,47 @@
       float: left;
       width: 33.33%;
       padding: 50px;
+      position: relative;
     }
+
+/* die Animation mit dem Overlay für die Produktbilder */
+
+.image-für-overlay {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.column-33:hover .image-für-overlay {
+  opacity: 0.3;
+}
+
+.column-33:hover .middle {
+  opacity: 1;
+}
+
+.overlay-text {
+  background-color: #68C902;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
   /* ----------------------------- Ende der Styles für die Startseite --------------------------------------- */
 
 
@@ -626,9 +666,14 @@
     /* Responsive Layout für die Columns wenn Bildschirm kleiner als 768px*/
     @media screen and (max-width: 768px) {
 
+      .column-50,
+      .column-50 {
+        width: 100%;
+        text-align: center;
+      }
+
       .column-50-left,
       .column-50-right,
-      .column-33,
       .column-footer-left,
       .column-footer-middle,
       .column-footer-right {
@@ -743,21 +788,4 @@
     .logo_home {
       /*Hier wird die Größe der Benefit Logos bestimmt*/
       width: 50%;
-    }
-
-
-
-
-    /* Responsive Layout für die Columns wenn Bildschirm kleiner als 768px*/
-    @media screen and (max-width: 768px) {
-
-      .column-50,
-      .column-50 {
-        width: 100%;
-        text-align: center;
-      }
-
-      img {
-        margin: auto;
-      }
     }
