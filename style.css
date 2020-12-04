@@ -506,6 +506,57 @@
       margin-bottom: 4rem;
     }
 
+    .contact h1{
+      margin-bottom: 0.25em;
+      text-align: center;
+    }
+
+    .contact-message {
+      display: flex;
+      padding-bottom: 3rem;
+    }
+
+    .contact-block,
+    .message-block {
+      width: 50%;
+    }
+
+    .contact-main {
+      display: flex;
+    }
+
+    .contact-data {
+      width: 50%;
+    }
+
+    .contact-detail a{
+      text-decoration: none;
+      color:black;
+    }
+
+    .contact-block {
+      padding-right: 5%;
+    }
+
+    .contact-block h2,
+    .message-block h2 {
+      text-align: left;
+    }
+
+    .form-group {
+      margin-bottom: 2rem;
+    }
+
+    .input {
+      margin-top: 0.5rem;
+    }
+
+    .form-control {
+      width: 70%;
+    }
+
+
+
     .contact p{
       line-height: 1.5rem;
     }
@@ -528,7 +579,7 @@
       height: 100%;
     }
 
-    .contact h2 {
+    .headquater h2 {
       margin-bottom: 0.25em;
       text-align: center;
     }
@@ -548,6 +599,21 @@
       margin-left: auto;
       margin-right: auto;
       }
+
+      .form-control{
+        width: 100%;
+      }
+
+      .contact-message {
+        display: block;
+        padding-bottom: 2rem;
+      }
+
+      .contact-block,
+      .message-block {
+        width: 100%;
+      }
+
     }
 
 
