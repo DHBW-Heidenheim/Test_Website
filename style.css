@@ -245,7 +245,18 @@
   color: white;
   font-size: 16px;
   padding: 16px 32px;
+  font-weight: bold;
 }
+
+.overlay-text a:link{
+    text-decoration: none;
+    color: white;
+}
+
+.overlay-text a:visited{
+  color: white;
+}
+
 
 
   /* ----------------------------- Ende der Styles für die Startseite --------------------------------------- */
@@ -633,7 +644,7 @@
     }
 
     .footer {
-      background-color: #02B7FF;
+      background-color: #77A1D9;
       text-align: center;
       color: #FFFFFF;
     }
