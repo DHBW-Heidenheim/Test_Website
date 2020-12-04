@@ -257,6 +257,9 @@
   color: white;
 }
 
+.Untertext-Produktbilder{
+  text-align: center; 
+}
 
 
   /* ----------------------------- Ende der Styles für die Startseite --------------------------------------- */
@@ -713,6 +716,12 @@
         padding-right: 5px;
         padding-top: 1px;
         padding-bottom: 1px;
+      }
+      .image-für-overlay,
+      .column-33  {
+        width: 100%;
+        padding: 50px;
+        padding-right: 10px;
       }
     }
 
