@@ -513,12 +513,16 @@
 
     .contact-message {
       display: flex;
-      padding-bottom: 3rem;
+      padding-bottom: 4rem;
     }
 
-    .contact-block,
+    .contact-block {
+      width: 40%;
+    }
+
     .message-block {
-      width: 50%;
+      width: 60%;
+      margin-left: 15%;
     }
 
     .contact-main {
@@ -532,10 +536,6 @@
     .contact-detail a{
       text-decoration: none;
       color:black;
-    }
-
-    .contact-block {
-      padding-right: 5%;
     }
 
     .contact-block h2,
@@ -555,7 +555,18 @@
       width: 70%;
     }
 
-
+    .btn_send_mail {
+      color:white;
+      background-color: #68C902;
+      text-align: center;
+      width: 50%;
+      margin-left: 10%;
+      border-radius: 5px;
+      border: none;
+      font-size: 1rem;
+      padding-top: 2%;
+      padding-bottom: 2%;
+    }
 
     .contact p{
       line-height: 1.5rem;
@@ -612,6 +623,10 @@
       .contact-block,
       .message-block {
         width: 100%;
+      }
+
+      .message-block {
+        margin-left: 0%;
       }
 
     }
