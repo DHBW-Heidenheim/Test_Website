@@ -17,13 +17,14 @@
     }
 
     h1 {
-      font-size: 45px;
+      font-size: 40px;
       text-align: center;
     }
 
     h2 {
       text-align: center;
     }
+
 
     img {
       display: block;
@@ -182,7 +183,31 @@
       font-weight: bold;
     }
 
+    .werbespruch-startseite {
+      background-color: white;
+      background-size: cover;
+      background-position: center;
+      color: black;
+      padding: 30px;
+      text-align: center;
+      margin: 0;
+    }
 
+
+/* Container der die 3 Spalten mit den Produktbildern beinhaltet */
+    .container-startseite-mit-3-spalten {
+      padding-left: : 64px;
+      padding-right: 64px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      background-color: #FFFFFF;
+    }
+
+    .column-33 {
+      float: left;
+      width: 33.33%;
+      padding: 50px;
+    }
   /* ----------------------------- Ende der Styles für die Startseite --------------------------------------- */
 
 
@@ -190,7 +215,7 @@
 
  /* Der Balken zwischen den einzelnen Abschnitten */
  .separator {
-   background-color: #02B7FF;
+   background-color: #77A1D9;
    background-size: cover;
    background-position: center;
    color: #FFFFFF;
@@ -603,6 +628,7 @@
 
       .column-50-left,
       .column-50-right,
+      .column-33,
       .column-footer-left,
       .column-footer-middle,
       .column-footer-right {
