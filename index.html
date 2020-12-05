@@ -3,228 +3,225 @@
 <html lang="de" dir="ltr">
 
 <head>
-  <title>Home - Pendix</title>
-  <link rel="stylesheet" href="style.css">
-  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home - Pendix</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
 
-  <div class="wrapper">
+    <div class="wrapper">
 
 
-    <header>
-      <!--Im Header ist die Navigationsleiste untergebracht-->
-      <div class="navigation">
-        <div class="topnav" id=myTopnav>
-          <a href="index.html"><img class="logo_klein" src="logo1.png" alt="Das ist unser Logo"> </a>
-          <a href="index.html"  class="active">Home</a>
-          <div class="dropdown">
-            <button class="dropbtn">Produkte<i class="fa fa-carte-down"></i> </button>
-            <div class="dropdown-content">
-              <a href="Produkt.html#standard_variante">Standard</a>
-              <a href="Produkt.html#premium_variante">Premium</a>
-            </div>
-          </div>
-          <a href="Kontakt.html">Kontakt</a>
-          <a href="Über uns.html">Über uns</a>
-          <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-        </div>
-      </div>
-      <!--Das ist das Script für die Navigationsleiste-->
-      <script>
-        function myFunction() {
-          var x = document.getElementById("myTopnav");
-          if (x.className === "topnav") {
-            x.className += " responsive";
-          } else {
-            x.className = "topnav";
-          }
-        }
-      </script>
-      <!--Ende Script Navigationsleiste-->
-
-    </header>
-    <!--Abschluss des Headerbereichs und der Navigationsleiste-->
-
-
-    <main>
-      <!--Hier beginnt der Mainteil der Website-->
-
-      <div id="main">
-
-        <!-- Das große Bild am Anfang der Seite -->
-        <div class="FrontPicture-Startseite">
-          <div class="FrontPicture-Text-Startseite">
-            <h1> Verwandeln Sie Ihr aktuelles Fahrrad kinderleicht in ein E-Bike! </h1>
-          </div>
-        </div>
-
-        <!-- der Trennstreifen -->
-        <h1 class="separator"> Unsere Komplett-Sets </h1>
-        <!-- Container mit Produkten  -->
-
-      <div class="wrapper_für_container">  <!--Wrapper damit bei sehr großen Bildschirmen die Spalten nicht zu weit nach außen rutschen  -->
-
-        <h2 class="werbespruch-startseite"> Wie bieten Ihnen Komplett-Sets in verschiedenen Preisklassen mit denen Sie
-                                             ihr Fahrrad selbst zu einem leistungsstarken E-Bike umrüsten können!
-        </h2>
-
-        <div class="container-startseite-mit-3-spalten">
-          <div class="row">
-
-            <div class="column-33">
-              <img src="Bikestail_480x480px.png" alt="Bikestail Bild" width="350" height="500" class="image-für-overlay">
-              <div class="middle">
-                <div class="overlay-text">
-                  <a href="Produkt.html#standard_variante"> Standard </a>
-                </div>
-              </div>
-              <p class="Untertext-Produktbilder"> Für jedes Fahrrad geeignet </p>
-            </div>
-
-            <div class="column-33">
-              <img src="edrive_150_480x480px.png" alt="edrive 150" width="350" height="500" class="image-für-overlay">
-              <div class="middle">
-                <div class="overlay-text">
-                  <a href="Produkt.html#premium_variante"> Premium Variante 1 </a>
-                </div>
-              </div>
-              <p class="Untertext-Produktbilder"> Für alle, die mehr wollen </p>
-            </div>
-
-            <div class="column-33">
-              <img src="edrive1000.jpg" alt="edrive1000" width="350" height="500" class="image-für-overlay">
-              <div class="middle">
-                <div class="overlay-text">
-                  <a href="Produkt.html#premium_variante_2"> Premium Variante 2 </a>
-                </div>
-              </div>
-              <p class="Untertext-Produktbilder"> Für lange Strecken </p>
-            </div>
-
-          </div>
-        </div>
-
-
-
-      </div>
-
-        <!-- der Trennstreifen -->
-        <h1 class="separator"> Warum bei uns bestellen? </h1>
-
-        <div class="wrapper_für_container">
-          <!--Wrapper damit bei sehr großen Bildschirmen die Spalten nicht zu weit nach außen rutschen  -->
-
-          <!-- 2 Spalten Container mit links Bild rechts Text -->
-          <div class="container-1">
-            <div class="row">
-              <div class="column-50-left">
-                <img src="Montur.svg" alt="Monturpiktogramm" width="350" height="500">
-              </div>
-              <div class="column-50-right">
-                <h2> Sie schaffen das mit links! </h2>
-                <p>Unsere Produkte sind kinderleicht an dem Großteil der handelsüblichen Fahrräder zu montieren.
-                   Mit der beiliegenden Montageanleitung können Sie im Handumdrehen und innerhalb kürzester
-                   Zeit ihr Fahrrad mit einem Elektroantrieb ausstatten.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <!-- 2 Spalten Container mit rechts Bild links Text -->
-          <div class="container-2">
-            <div class="row">
-              <div class="column-50-left">
-                <h2> Weltweite Verfügbarkeit! </h2>
-                  <p> Unsere Produkte sind weltweit verfügbar. Wir möchten nämlich, dass die ganze Welt
-                    von unseren Produkten profitieren. Durch Produktionsstätten auf der ganzen Welt
-                    bleiben die Lieferwege trotzdem kurz.
-                  </p>
-              </div>
-              <div class="column-50-right">
-                <img src="worldwide.svg" alt="Weltsymbol" width="350" height="500">
-              </div>
-            </div>
-          </div>
-
-          <!-- 2 Spalten Container mit links Bild rechts Text -->
-          <div class="container-1">
-            <div class="row">
-                <div class="column-50-left">
-                <img src="Nachhaltigkeit.svg" alt="Nachhaltigkeitspiktogramm" width="350" height="500">
-                </div>
-                <div class="column-50-right">
-                  <h2> Sie tun etwas für die Umwelt! </h2>
-                      <p> Sie brauchen Ihr momentanes Fahrrad nicht zu entsorgen, um den Fahrspaß eines E-Bikes zu genießen.
-                          Zudem sind unsere Produkte zu 70 Prozent aus recycelte Materialien.
-                          Das ist ihr Beitrag für ein nachhaltiges Morgen
-                      </p>
+        <header>
+            <!--Im Header ist die Navigationsleiste untergebracht-->
+            <div class="navigation">
+                <div class="topnav" id=myTopnav>
+                    <a href="index.html"><img class="logo_klein" src="neues_logo_transparent_667x667.png" alt="Das ist unser Logo"> </a>
+                    <a href="index.html" class="active">Home</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">Produkte<i class="fa fa-carte-down"></i> </button>
+                        <div class="dropdown-content">
+                            <a href="Produkt.html#standard_variante">Standard</a>
+                            <a href="Produkt.html#premium_variante">Premium</a>
+                        </div>
+                    </div>
+                    <a href="Kontakt.html">Kontakt</a>
+                    <a href="Über uns.html">Über uns</a>
+                    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
                 </div>
             </div>
-          </div>
+            <!--Das ist das Script für die Navigationsleiste-->
+            <script>
+                function myFunction() {
+                    var x = document.getElementById("myTopnav");
+                    if (x.className === "topnav") {
+                        x.className += " responsive";
+                    } else {
+                        x.className = "topnav";
+                    }
+                }
+            </script>
+            <!--Ende Script Navigationsleiste-->
 
-          <!-- Ende der Benefits -->
+        </header>
+        <!--Abschluss des Headerbereichs und der Navigationsleiste-->
 
 
-          <div class="gotoproductbutton">
-            <button onclick="location.href='Produkt.html'" type="button" name="button">
+        <main>
+            <!--Hier beginnt der Mainteil der Website-->
+
+            <div id="main">
+
+                <!-- Das große Bild am Anfang der Seite -->
+                <div class="FrontPicture-Startseite">
+                    <div class="FrontPicture-Text-Startseite">
+                        <h1> Verwandeln Sie Ihr aktuelles Fahrrad kinderleicht in ein E-Bike! </h1>
+                    </div>
+                </div>
+
+                <!-- der Trennstreifen -->
+                <h1 class="separator"> Unsere Komplett-Sets </h1>
+                <!-- Container mit Produkten  -->
+
+                <div class="wrapper_für_container">
+                    <!--Wrapper damit bei sehr großen Bildschirmen die Spalten nicht zu weit nach außen rutschen  -->
+
+                    <h2 class="werbespruch-startseite"> Wie bieten Ihnen Komplett-Sets in verschiedenen Preisklassen mit denen Sie ihr Fahrrad selbst zu einem leistungsstarken E-Bike umrüsten können!
+                    </h2>
+
+                    <div class="container-startseite-mit-3-spalten">
+                        <div class="row">
+
+                            <div class="column-33">
+                                <img src="Bikestail_480x480px.png" alt="Bikestail Bild" width="350" height="500" class="image-für-overlay">
+                                <div class="middle">
+                                    <div class="overlay-text">
+                                        <a href="Produkt.html#standard_variante"> Standard </a>
+                                    </div>
+                                </div>
+                                <p class="Untertext-Produktbilder"> Für jedes Fahrrad geeignet </p>
+                            </div>
+
+                            <div class="column-33">
+                                <img src="edrive_150_480x480px.png" alt="edrive 150" width="350" height="500" class="image-für-overlay">
+                                <div class="middle">
+                                    <div class="overlay-text">
+                                        <a href="Produkt.html#premium_variante"> Premium Variante 1 </a>
+                                    </div>
+                                </div>
+                                <p class="Untertext-Produktbilder"> Für alle, die mehr wollen </p>
+                            </div>
+
+                            <div class="column-33">
+                                <img src="edrive1000.jpg" alt="edrive1000" width="350" height="500" class="image-für-overlay">
+                                <div class="middle">
+                                    <div class="overlay-text">
+                                        <a href="Produkt.html#premium_variante_2"> Premium Variante 2 </a>
+                                    </div>
+                                </div>
+                                <p class="Untertext-Produktbilder"> Für lange Strecken </p>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <!-- der Trennstreifen -->
+                <h1 class="separator"> Warum bei uns bestellen? </h1>
+
+                <div class="wrapper_für_container">
+                    <!--Wrapper damit bei sehr großen Bildschirmen die Spalten nicht zu weit nach außen rutschen  -->
+
+                    <!-- 2 Spalten Container mit links Bild rechts Text -->
+                    <div class="container-1">
+                        <div class="row">
+                            <div class="column-50-left">
+                                <img src="Montur.svg" alt="Monturpiktogramm" width="350" height="500">
+                            </div>
+                            <div class="column-50-right">
+                                <h2> Sie schaffen das mit links! </h2>
+                                <p>Unsere Produkte sind kinderleicht an dem Großteil der handelsüblichen Fahrräder zu montieren. Mit der beiliegenden Montageanleitung können Sie im Handumdrehen und innerhalb kürzester Zeit ihr Fahrrad mit einem Elektroantrieb
+                                    ausstatten.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2 Spalten Container mit rechts Bild links Text -->
+                    <div class="container-2">
+                        <div class="row">
+                            <div class="column-50-left">
+                                <h2> Weltweite Verfügbarkeit! </h2>
+                                <p> Unsere Produkte sind weltweit verfügbar. Wir möchten nämlich, dass die ganze Welt von unseren Produkten profitieren. Durch Produktionsstätten auf der ganzen Welt bleiben die Lieferwege trotzdem kurz.
+                                </p>
+                            </div>
+                            <div class="column-50-right">
+                                <img src="worldwide.svg" alt="Weltsymbol" width="350" height="500">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2 Spalten Container mit links Bild rechts Text -->
+                    <div class="container-1">
+                        <div class="row">
+                            <div class="column-50-left">
+                                <img src="Nachhaltigkeit.svg" alt="Nachhaltigkeitspiktogramm" width="350" height="500">
+                            </div>
+                            <div class="column-50-right">
+                                <h2> Sie tun etwas für die Umwelt! </h2>
+                                <p> Sie brauchen Ihr momentanes Fahrrad nicht zu entsorgen, um den Fahrspaß eines E-Bikes zu genießen. Zudem sind unsere Produkte zu 70 Prozent aus recycelte Materialien. Das ist ihr Beitrag für ein nachhaltiges Morgen
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Ende der Benefits -->
+
+
+                    <div class="gotoproductbutton">
+                        <button onclick="location.href='Produkt.html'" type="button" name="button">
               <p>Zu unseren Produkten</p>
             </button>
-            <!-- der onclick Befehl ist ein JavaScript Befehl-->
-          </div>
+                        <!-- der onclick Befehl ist ein JavaScript Befehl-->
+                    </div>
 
-          <!--Hier endet der Benefits Bereich-->
+                    <!--Hier endet der Benefits Bereich-->
 
-        </div> <!-- schließender Divblock vom  id container_wrapper -->
+                </div>
+                <!-- schließender Divblock vom  id container_wrapper -->
 
-      </div> <!-- schließender Divblock von id main-->
-
-    </main>
-    <!--Hier endet der Main Bereich-->
-
-
-    <footer>
-      <!--Hier beginnt der Footer Bereich-->
-      <div class="footer">
-        <div class="footer_content">
-          <div class="column-footer-left">
-            <p> <b>Übersicht</b> </p>
-            <p><a href="index.html">Home</a><br></p>
-            <p><a href="Produkt.html">Produkte</a><br></p>
-            <p><a href="Kontakt.html">Kontakt</a><br></p>
-            <p><a href="Über uns.html">Über uns</a><br></p>
-            <p><a href="datenschutz.html">Datenschutz</a></p>
-          </div>
-          <div class="column-footer-middle">
-            <p> <b>Kontakt</b> </p>
-            <p>Electronic Bikes GmbH</p>
-            <p>Marienstraße 20</p>
-            <p>89518 Heidenheim</p>
-          </div>
-          <div class="column-footer-right">
-            <p><b>Social Media:</b></p>
-            <p>Aktuelle Informationen teilen</p>
-            <p>wir hier mit Ihnen:</p>
-            <div class="social_media">
-              <a href="https://www.facebook.de"><img src="facebook_logo.svg" alt="Hier kommen Sie zu Facebook"></a>
             </div>
-            <div class="social_media">
-              <a href="https://www.instagram.com"><img src="instagram_logo.svg" alt="Hier kommen Sie zu Instagram"></a>
+            <!-- schließender Divblock von id main-->
+
+        </main>
+        <!--Hier endet der Main Bereich-->
+
+
+        <footer>
+            <!--Hier beginnt der Footer Bereich-->
+            <div class="footer">
+                <div class="footer_content">
+                    <div class="column-footer-left">
+                        <p> <b>Übersicht</b> </p>
+                        <p><a href="index.html">Home</a><br></p>
+                        <p><a href="Produkt.html">Produkte</a><br></p>
+                        <p><a href="Kontakt.html">Kontakt</a><br></p>
+                        <p><a href="Über uns.html">Über uns</a><br></p>
+                        <p><a href="datenschutz.html">Datenschutz</a></p>
+                    </div>
+                    <div class="column-footer-middle">
+                        <p> <b>Kontakt</b> </p>
+                        <p>Electronic Bikes GmbH</p>
+                        <p>Marienstraße 20</p>
+                        <p>89518 Heidenheim</p>
+                    </div>
+                    <div class="column-footer-right">
+                        <p><b>Social Media:</b></p>
+                        <p>Aktuelle Informationen teilen</p>
+                        <p>wir hier mit Ihnen:</p>
+                        <div class="social_media">
+                            <a href="https://www.facebook.de"><img src="facebook_logo.svg" alt="Hier kommen Sie zu Facebook"></a>
+                        </div>
+                        <div class="social_media">
+                            <a href="https://www.instagram.com"><img src="instagram_logo.svg" alt="Hier kommen Sie zu Instagram"></a>
+                        </div>
+                        <div class="social_media">
+                            <a href="https://www.youtube.de"><img src="youtube_logo.svg" alt="Das ist der Youtube Auftritt"></a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="social_media">
-              <a href="https://www.youtube.de"><img src="youtube_logo.svg" alt="Das ist der Youtube Auftritt"></a>
-            </div>
-          </div>
-        </div>
-      </div>
 
 
-    </footer>
-    <!--Hier endet der Footer Bereich-->
+        </footer>
+        <!--Hier endet der Footer Bereich-->
 
-  </div>
-  <!--Das ist das Ende des Wrappers-->
+    </div>
+    <!--Das ist das Ende des Wrappers-->
 
 
 </body>
