@@ -6,6 +6,10 @@
       font-family: Arial, Helvectia, sans-serif;
     }
 
+    html p {
+      line-height: 1.5rem;
+    }
+
     html,
     body {
       height: 100%;
@@ -476,7 +480,6 @@
 
     .column-50 p {
       text-align: justify;
-      line-height: 20px;
     }
 
 /* ----------------------- Ende der Styles für die Produktseite ------------------------------------------- */
@@ -568,10 +571,6 @@
       padding-bottom: 2%;
     }
 
-    .contact p{
-      line-height: 1.5rem;
-    }
-
     .mapouter {
       height: 50%;
       display: flex;
@@ -641,10 +640,6 @@
     .aboutus {
       padding-left: 10%;
       padding-right: 10%;
-    }
-
-    .aboutus p {
-      line-height: 1.5rem;
     }
 
     .garage_ueberuns{
@@ -731,7 +726,6 @@
       padding-right: 20px;
       padding-top: 20px;
       padding-bottom: 20px;
-      line-height: 120%;
     }
 
     .column-footer-left a {
@@ -743,6 +737,7 @@
       background-color: #77A1D9;
       text-align: center;
       color: #FFFFFF;
+      padding-bottom: 1.5rem;
     }
 
     .footer_content {
@@ -753,11 +748,11 @@
 
     .social_media img {
       width: 50px;
-      height: 80px;
+      height: 50px;
       float: left;
       padding-left: 10px;
       padding-right: 10px;
-      padding-top: 10px;
+      padding-top: 0px;
       padding-bottom: 10px;
       align-items: center;
     }
@@ -794,7 +789,6 @@
       .column-footer-right {
         padding-top: 5px;
         padding-bottom: 5px;
-        line-height: 120%;
         padding-left: 20px;
         padding-right: 20px;
       }
