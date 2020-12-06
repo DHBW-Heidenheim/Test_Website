@@ -200,8 +200,8 @@
 
 /* Container der die 3 Spalten mit den Produktbildern beinhaltet */
     .container-startseite-mit-3-spalten {
-      padding-left: : 64px;
-      padding-right: 64px;
+      padding-left: 10%;
+      padding-right: 10%;
       padding-top: 30px;
       padding-bottom: 30px;
       background-color: #FFFFFF;
@@ -277,7 +277,10 @@
    background-size: cover;
    background-position: center;
    color: #FFFFFF;
-   padding: 30px;
+   padding-left: 10%;
+   padding-right: 10%;
+   padding-top: 30px;
+   padding-bottom: 30px;
    text-align: center;
    margin: 0;
  }
@@ -289,19 +292,11 @@
 
  /* Erster Container mit 2 Spalten links Bild rechts Text*/
  .container-1 {
-   padding-left: : 64px;
-   padding-right: 64px;
-   padding-top: 30px;
-   padding-bottom: 30px;
    background-color: #FFFFFF;
  }
 
  /* Zweiter Container mit 2 Spalten links Text rechts Bild */
  .container-2 {
-   padding-left: : 64px;
-   padding-right: 64px;
-   padding-top: 30px;
-   padding-bottom: 30px;
    background-color: #BDD9F2;
  }
 
@@ -396,7 +391,6 @@
 
     /* Zweiter Container mit Produktdaten */
     .container-produktdaten {
-      padding: 10px 20px 10px 20px;
       background-color: #BDD9F2;
       margin: auto;
     }
@@ -489,7 +483,7 @@
 		.product-data {
 			padding: 0;
 		}
-		
+
 		.descripcion .label {
 			margin-left: 30%;
 		}
@@ -503,6 +497,18 @@
       padding-right: 20%;
       padding-top: 2%;
       padding-bottom: 2%;
+    }
+
+    .datenschutz h1 {
+      margin-bottom: 0.25em;
+      text-align: center;
+    }
+
+    .datenschutz hr {
+      margin-top: 0.25rem;
+      border: solid 0.1rem;
+      border-radius: 3rem;
+      color: #68C902;
     }
 
     @media screen and (max-width: 768px) {
@@ -792,8 +798,6 @@
       .column-footer-middle,
       .column-footer-right {
         width: 100%;
-        padding-left: 80px;
-        padding-right: 80px;
       }
 
       .column-footer-left,
@@ -819,8 +823,7 @@
       .image-für-overlay,
       .column-33  {
         width: 100%;
-        padding: 50px;
-        padding-right: 10px;
+        padding: 0px;
       }
     }
 
