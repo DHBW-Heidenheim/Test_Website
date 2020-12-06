@@ -575,6 +575,7 @@
 
     .form-control {
       width: 70%;
+      height: 2rem;
     }
 
     .btn_send_mail {
