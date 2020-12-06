@@ -870,7 +870,7 @@
       border-radius: 5px;
       border: none;
       /*Hier wird die Geschwindigkeit des Buttons geregelt*/
-      box-shadow: 10px 15px 10px -7px black;
+      box-shadow: 10px 15px 10px -7px grey;
       transition: ease-in-out all 300ms;
       /*Hierdurch wird die Breite des Buttons geregelt*/
       padding-left: 5%;
@@ -882,7 +882,7 @@
       color: #02B7FF;
       border: solid 3px #02B7FF;
       transform: translate(0px, -10px);
-      box-shadow: 0px 30px 10px -10px grey;
+      box-shadow: 10px 15px 5px -10px grey;
     }
 
     .read_more_button {
@@ -895,7 +895,7 @@
       text-align: center;
       border-radius: 50px;
       border: none;
-      box-shadow: 10px 15px 10px -7px black;
+      box-shadow: 10px 15px 10px -7px grey;
       transition: ease-in-out all 300ms;
     }
 
@@ -904,7 +904,7 @@
       color: #02B7FF;
       border: solid 3px #02B7FF;
       transform: translate(0px, -10px);
-      box-shadow: 0px 30px 10px -10px grey;
+      box-shadow: 10px 15px 5px -10px grey;
     }
 
     .logo_home {
