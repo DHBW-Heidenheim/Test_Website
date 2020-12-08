@@ -11,39 +11,62 @@
 
 <body>
 
-  <div class="wrapper">
+  <div class="wrapper-über-uns">
 
 
-    <header>
-      <!--Im Header ist die Navigationsleiste untergebracht-->
-      <div class="navigation">
-        <div class="topnav" id=myTopnav>
-          <a href="index.html"><img class="logo_klein" src="logo1.png" alt="Das ist unser Logo"> </a>
-          <a href="index.html">Home</a>
-          <div class="dropdown">
-            <button onclick="location.href='Produkt.html'" class="dropbtn">Produkte<i class="fa fa-carte-down"></i> </button>
-            <div class="dropdown-content">
-              <a href="Produkt.html#standard_variante">Standard</a>
-              <a href="Produkt.html#premium_variante">Premium</a>
+    <header>  <!--Im Header ist die Navigationsleiste untergebracht-->
+
+      <div class="wrapper_header" >
+
+      <!-- Das große Bild am Anfang der Seite -->
+      <div class="FrontPicture-Über-uns">
+
+        <div class="navigation-im-frontpicture">
+          <div class="topnav" id=myTopnav>
+            <div class="Logo-float-left">
+              <a href="index.html"><img src="neues_logo_transparent_300x300.png" alt="Unser Logo"> </a>
             </div>
+
+            <div class="Rest-float-right">
+              <div class="home-ausblenden">
+              <a href="index.html">Home</a>
+            </div>
+              <a href="Kontakt.html">Kontakt</a>
+              <a href="Über uns.html">Über uns</a>
+            </div>
+
+            <div class="dropdown">
+              <button onclick="location.href='Produkt.html'" class="dropbtn">Produkte<i class="fa fa-carte-down"></i> </button>
+              <div class="dropdown-content">
+                <a href="Produkt.html#standard_variante">Standard</a>
+                <a href="Produkt.html#premium_variante">Premium</a>
+              </div>
+            </div>
+
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
           </div>
-          <a href="Kontakt.html">Kontakt</a>
-          <a href="Über uns.html" class="active">Über uns</a>
-          <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
         </div>
-      </div>
-      <!--Das ist das Script für die Navigationsleiste-->
-      <script>
-        function myFunction() {
-          var x = document.getElementById("myTopnav");
-          if (x.className === "topnav") {
-            x.className += " responsive";
-          } else {
-            x.className = "topnav";
+        <!--Das ist das Script für die Navigationsleiste-->
+        <script>
+          function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+              x.className += " responsive";
+            } else {
+              x.className = "topnav";
+            }
           }
-        }
-      </script>
-      <!--Ende Script Navigationsleiste-->
+        </script>
+        <!--Ende Script Navigationsleiste-->
+
+      </div>
+
+
+      </div>
+
+
+
+
     </header>
     <!--Abschluss des Headerbereichs und der Navigationsleiste-->
     <main>

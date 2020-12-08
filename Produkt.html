@@ -14,36 +14,60 @@
   <div class="wrapper">
 
 
-    <header>
-      <!--Im Header ist die Navigationsleiste untergebracht-->
-      <div class="navigation">
-        <div class="topnav" id=myTopnav>
-          <a href="index.html"><img class="logo_klein" src="logo1.png" alt="Das ist unser Logo"> </a>
-          <a href="index.html">Home</a>
-          <div class="dropdown active">
-            <button class="dropbtn">Produkte<i class="fa fa-carte-down"></i> </button>
-            <div class="dropdown-content">
-              <a href="Produkt.html#standard_variante">Standard</a>
-              <a href="Produkt.html#premium_variante">Premium</a>
+    <header>      <!--Im Header ist die Navigationsleiste untergebracht-->
+
+
+      <div class="wrapper_header" >   <!-- Das große Bild am Anfang der Seite -->
+      <div class="FrontPicture-Produktseite">
+
+        <div class="navigation-im-frontpicture">
+          <div class="topnav" id=myTopnav>
+            <div class="Logo-float-left">
+              <a href="index.html"><img src="neues_logo_transparent_300x300.png" alt="Unser Logo"> </a>
             </div>
+
+            <div class="Rest-float-right">
+              <div class="home-ausblenden">
+              <a href="index.html">Home</a>
+            </div>
+              <a href="Kontakt.html">Kontakt</a>
+              <a href="Über uns.html">Über uns</a>
+            </div>
+
+            <div class="dropdown">
+              <button onclick="location.href='Produkt.html'" class="dropbtn">Produkte<i class="fa fa-carte-down"></i> </button>
+              <div class="dropdown-content">
+                <a href="Produkt.html#standard_variante">Standard</a>
+                <a href="Produkt.html#premium_variante">Premium</a>
+              </div>
+            </div>
+
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
           </div>
-          <a href="Kontakt.html">Kontakt</a>
-          <a href="Über uns.html">Über uns</a>
-          <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
         </div>
-      </div>
-      <!--Das ist das Script für die Navigationsleiste-->
-      <script>
-        function myFunction() {
-          var x = document.getElementById("myTopnav");
-          if (x.className === "topnav") {
-            x.className += " responsive";
-          } else {
-            x.className = "topnav";
+        <!--Das ist das Script für die Navigationsleiste-->
+        <script>
+          function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+              x.className += " responsive";
+            } else {
+              x.className = "topnav";
+            }
           }
-        }
-      </script>
-      <!--Ende Script Navigationsleiste-->
+        </script>
+        <!--Ende Script Navigationsleiste-->
+
+        <div class="FrontPicture-Text-Produktseite">
+          <h1> Unsere Produkte </h1>
+          <h2> Vom Standard bis zum Premium Modell</br>
+               Für jeden das richtige Set!</h2>
+        </div>
+
+      </div>
+
+
+      </div>
 
     </header>
     <!--Abschluss des Headerbereichs und der Navigationsleiste-->
@@ -55,12 +79,13 @@
       <div id="main">
 
         <!-- Das große Bild am Anfang der Seite -->
-        <div class="FrontPicture-Produktseite">
+    <!--    <div class="FrontPicture-Produktseite">
           <div class="FrontPicture-Text-Produktseite">
             <h1> Unsere Produkte </h1>
             <p> Von der Standard Variante bis zum Premium Modell </br> Für jeden das richtige Set! </p>
           </div>
         </div>
+    -->
 
         <!-- der grüne Block mit Standard -->
         <h1 class="separator" id="standard_variante">Standard Variante</h1>
@@ -76,7 +101,10 @@
             </div>
             <div class="column-50-right">
               <h2> Kompakt und powervoll </h2>
-              <p> Mit dem leistungsstarken Motor im Aluminiumgehäuse verwandelst Du dein Fahrrad in wenigen Minuten zum E-Bike! </p>
+              <p> Mit dem leistungsstarken Motor im Aluminiumgehäuse verwandelst Du dein Fahrrad in wenigen Minuten zum E-Bike!
+                  Der Motor ist für jedes Fahrrad geeignet und kann in wenigen Minuten installiert und wieder entfernt werden.
+                  Außerdem ist er wasserdicht und benötigt keine Wartung.
+              </p>
               <button class="read_more_button" style?="background-color:blue"> Für nur 540,00 € </button>
             </div>
           </div>
@@ -88,12 +116,14 @@
           <div class="row">
             <div class="column-50-left">
               <h2> Das Komplettpaket </h2>
+              <p> Mit diesem Set werden Sie Ihren Fahrspaß auf ein neues Level heben. </br> Enthalten sind: </p>
               <ul>
 								<li> Antriebsmotor in wasserdichtem Aluminiumgehäuse</li>
 								<li> Pedal- und Bremssensor</li>
 								<li> Spezielles Ladekabel für lange Haltbarkeit</li>
                 <li> Passende Tasche</li>
 							</ul>
+              <p> Sie können den Motor flexibel für verschiedene Fahräder nutzen und einfach transportieren. </p>
             </div>
             <div class="column-50-right">
               <img class="round-image-komplettpaket"src="Bikestail_480x480px.png"
