@@ -293,6 +293,7 @@
   font-size: 16px;
   padding: 16px 32px;
   font-weight: bold;
+  border-radius: 5px;
 }
 
 .overlay-text a:link{
@@ -308,6 +309,40 @@
   text-align: center;
 }
 
+/* Ende der Animation für Overlay bei Produktbilder */
+
+  /* Style des GotoProduct Buttons  */
+    .gotoproductbutton {
+      text-align: center;
+    }
+
+    .gotoproductbutton button {
+      text-align: center;
+      font-size: 18px;
+      font-weight: bolder;
+      background-color: #68C902;
+      color: white;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      border-radius: 5px;
+      border: none;
+      /*Hier wird die Geschwindigkeit des Buttons geregelt*/
+      box-shadow: 5px 10px 5px -5px grey;
+      transition: ease-in-out all 300ms;
+      /*Hierdurch wird die Breite des Buttons geregelt*/
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+
+    .gotoproductbutton button:hover {
+      background-color: #FFFFFF;
+      color: #68C902;
+      border: solid 3px #68C902;
+      transform: translate(0px, -10px);
+      box-shadow: 5px 10px 5px -5px grey;
+    }
+
+/* Ende Styles GotoProduct Button */
 
   /* ----------------------------- Ende der Styles für die Startseite --------------------------------------- */
 
@@ -389,6 +424,31 @@
       font-weight: bold;
     }
 
+    /* Der Preisschild Button  */
+    .preis_button {
+      border: none;
+      color: #FFFFFF;
+      font-weight: bold;
+      padding: 14px 28px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: #68C902;
+      text-align: center;
+      border-radius: 5px;
+      border: none;
+      box-shadow: 5px 10px 5px -5px grey;
+      transition: ease-in-out all 300ms;
+    }
+
+    .preis_button:hover {
+      background-color: #FFFFFF;
+      color: #68C902;
+      border: solid 3px #68C902;
+      transform: translate(0px, -10px);
+      box-shadow: 5px 10px 5px -5px grey;
+    }
+
+
 
     /* Damit das Bild vom Bikestail Komplettpaket rund ist  */
     .round-image-komplettpaket{
@@ -432,10 +492,10 @@
     }
 
     /* Zweiter Container mit Produktdaten */
-    .container-produktdaten {
-      background-color: #BDD9F2;
-      margin: auto;
-    }
+    /* .container-produktdaten { */
+      /* background-color: #BDD9F2; */
+      /* margin: auto; */
+    /* } */
 
     /* Zweiter Container mit Produktdaten */
     .container-technische-daten {
@@ -490,7 +550,6 @@
     }
 
     .text-center {
-      text-decoration: none;
       text-align: center;
     }
 
@@ -902,6 +961,10 @@
         width: 100%;
         padding: 0px;
       }
+
+      .m-t-35 {
+        margin-top: 0;
+      }
     }
 
     /************************************************************************************************************************************/
@@ -928,63 +991,3 @@
     }
 
     /************************************************************************************************************************************/
-
-    /* Ich weiß nicht genau welche Buttons hier gestylt werden, deswegen sind die keiner Seite zugeordnet */
-    /* Daniel 30.11.2020 */
-
-    .gotoproductbutton {
-      text-align: center;
-    }
-
-    .gotoproductbutton button {
-      text-align: center;
-      font-size: 18px;
-      font-weight: bolder;
-      background-color: #68C902;
-      color: white;
-      margin-top: 30px;
-      margin-bottom: 30px;
-      border-radius: 5px;
-      border: none;
-      /*Hier wird die Geschwindigkeit des Buttons geregelt*/
-      box-shadow: 10px 15px 10px -7px grey;
-      transition: ease-in-out all 300ms;
-      /*Hierdurch wird die Breite des Buttons geregelt*/
-      padding-left: 5%;
-      padding-right: 5%;
-    }
-
-    .gotoproductbutton button:hover {
-      background-color: #FFFFFF;
-      color: #02B7FF;
-      border: solid 3px #02B7FF;
-      transform: translate(0px, -10px);
-      box-shadow: 10px 15px 5px -10px grey;
-    }
-
-    .read_more_button {
-      border: none;
-      color: #FFFFFF;
-      padding: 14px 28px;
-      font-size: 16px;
-      cursor: pointer;
-      background-color: #68C902;
-      text-align: center;
-      border-radius: 50px;
-      border: none;
-      box-shadow: 10px 15px 10px -7px grey;
-      transition: ease-in-out all 300ms;
-    }
-
-    .read_more_button:hover {
-      background-color: #FFFFFF;
-      color: #02B7FF;
-      border: solid 3px #02B7FF;
-      transform: translate(0px, -10px);
-      box-shadow: 10px 15px 5px -10px grey;
-    }
-
-    .logo_home {
-      /*Hier wird die Größe der Benefit Logos bestimmt*/
-      width: 50%;
-    }
