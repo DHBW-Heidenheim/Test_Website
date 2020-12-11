@@ -764,9 +764,9 @@
 /*Ende des Designs der Seite Kontakt*/
 /* ----------------------- Anfang des Styles für die Seite Übers uns -------------------------------------- */
 
-  .wrapper-über-uns{
-    background-color: #BDD9F2;
-  }
+  /* .wrapper-über-uns{ */
+    /* background-color: #BDD9F2; */
+  /* } */
 
   /*Das große Bild am Anfang der Über uns Seite*/
   .FrontPicture-Logo {
@@ -789,6 +789,7 @@
     .aboutus {
       padding-left: 10%;
       padding-right: 10%;
+      padding-top: 1%;
     }
 
     .garage_ueberuns{
