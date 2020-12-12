@@ -939,6 +939,20 @@
       width: 60px;
     }
 
+    .footer h4 {
+      margin-bottom: 0.25rem;
+    }
+
+    .footer hr {
+      border: solid 0.1rem;
+      border-radius: 3rem;
+      margin-top: 0.25rem;
+      color: #FFFFFF
+    }
+
+
+
+
 
 /* -------------------------------- Ende der Styles für den Footer ------------------------------------------------- */
 
