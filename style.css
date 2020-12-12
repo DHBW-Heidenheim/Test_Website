@@ -320,6 +320,7 @@
 
 /* Ende der Animation für Overlay bei Produktbilder */
 
+
   /* Style des GotoProduct Buttons  */
     .gotoproductbutton {
       text-align: center;
@@ -576,24 +577,14 @@
       text-align: center;
     }
 
-    .p-b-0 {
-      padding-bottom: 0px;
-    }
-
-    .p-t-0 {
-      padding-top: 0px;
-    }
-
-    .f-25 {
-      font-size: 25px;
-    }
-
-    .f-10 {
-      font-size: 10px;
-    }
-
     .m-t-35 {
       margin-top: 35px;
+    }
+
+    .Anpassung-Texte{
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-top: 2%;
     }
 
     .column-50 p {
