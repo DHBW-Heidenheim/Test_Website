@@ -1,3 +1,5 @@
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+
     * {
       box-sizing: border-box;
     }
@@ -20,15 +22,20 @@
       margin: 0;
     }
 
+    main {
+      font-family: 'Montserrat', sans-serif;
+    }
+
     h1 {
       font-size: 35px;
       text-align: center;
+      font-family: 'Montserrat', sans-serif;
     }
 
     h2 {
       text-align: center;
+      font-family: 'Montserrat', sans-serif;
     }
-
 
     img {
       display: block;
@@ -84,7 +91,7 @@
       float: left;
       display: block;
       color: white;
-      text-shadow: 2px 2px 5px black;
+      text-shadow: 1px 1px 3px black;
       font-weight: bold;
       text-align: center;
       padding: 14px 14px;
@@ -110,7 +117,7 @@
       border: none;
       outline: none;
       color: white;
-      text-shadow: 2px 2px 5px black;
+      text-shadow: 1px 1px 3px black;
       font-weight: bold;
       padding: 14px 14px;
       background-color: inherit;
@@ -216,7 +223,6 @@
       background-attachment: fixed;
     }
 
-
     /* Der Text mittig auf dem FrontPicture Startseite*/
     .FrontPicture-Text-Startseite{
       text-align: center;
@@ -225,7 +231,7 @@
       left: 50%;
       transform: translate(-50%, -50%);
       color: #FFFFFF;
-      text-shadow: 5px 5px 10px black;
+      text-shadow: 2px 2px 5px black;
       font-weight: bold;
     }
 
@@ -403,7 +409,8 @@
     /*Das große Bild am Anfang der Produktseite */
     .FrontPicture-Produktseite {
       background-color: lightblue;
-      background-image: url('AdobeStock_Frontpicture2_1637x1093.jpg');
+                        /* damit Text besser lesbar ist */
+      background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('AdobeStock_Frontpicture2_1637x1093.jpg');
       height: 100%;
       background-repeat: no-repeat;
       background-size: cover;
@@ -419,7 +426,7 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      color: #FFFFFF;
+      color: white;
       text-shadow: 5px 5px 10px black;
       font-weight: bold;
     }
