@@ -14,61 +14,60 @@
 <!-- <div class="wrapper-über-uns"> -->
 
 
-    <header>  <!--Im Header ist die Navigationsleiste untergebracht-->
+<header>  <!--Im Header ist die Navigationsleiste untergebracht-->
 
-      <div class="wrapper_header" >
+  <div class="wrapper_header" >
 
-      <!-- Das große Bild am Anfang der Seite -->
-      <div class="FrontPicture-Logo">
+  <!-- Das große Bild am Anfang der Seite -->
+  <div class="FrontPicture-Logo">
 
-        <div class="navigation-im-frontpicture">
-          <div class="topnav" id=myTopnav>
-            <div class="Logo-float-left">
-              <a href="index.html"><img src="neues_logo_transparent_300x300.png" alt="Unser Logo"> </a>
-            </div>
-
-            <div class="Rest-float-right">
-              <div class="home-ausblenden">
-              <a href="index.html">Home</a>
-            </div>
-              <a href="Kontakt.html">Kontakt</a>
-              <a href="Über uns.html">Über uns</a>
-            </div>
-
-            <div class="dropdown">
-              <button onclick="location.href='Produkt.html'" class="dropbtn">Produkte<i class="fa fa-carte-down"></i> </button>
-              <div class="dropdown-content">
-                <a href="Produkt.html#standard_variante">Standard</a>
-                <a href="Produkt.html#premium_variante">Premium</a>
-              </div>
-            </div>
-
-            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    <div class="navigation-im-frontpicture">
+      <div class="nav-bar">
+        <div class="nav-container">
+          <div class="brand">
+            <a href="index.html"><img src="neues_logo_transparent_300x300.png"></a>
           </div>
+          <nav>
+            <div class="nav-mobile"><a id="nav-toggle" href="#"><span></span></a></div>
+            <ul class="nav-list">
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li>
+                <a href="#">Produkte</a>
+                <ul class="nav-dropdown">
+                  <li>
+                    <a href="#">Standard</a>
+                  </li>
+                  <li>
+                    <a href="#">eDrive 150</a>
+                  </li>
+                  <li>
+                    <a href="#">eDrive 500</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="Kontakt.html">Kontakt</a>
+              </li>
+              <li>
+                <a href="Über uns.html">Über uns</a>
+              </li>
+            </ul>
+          </nav>
         </div>
-        <!--Das ist das Script für die Navigationsleiste-->
-        <script>
-          function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-              x.className += " responsive";
-            } else {
-              x.className = "topnav";
-            }
-          }
-        </script>
-        <!--Ende Script Navigationsleiste-->
-
       </div>
 
+      <script src="query.js"></script>
+      <script src="function.js"></script>
 
-      </div>
+  </div>
 
 
-
-
-    </header>
+  </div>
+</header>
     <!--Abschluss des Headerbereichs und der Navigationsleiste-->
+
     <main>      <!--Hier beginnt der Mainteil der Website-->
       <div id="main">
 
@@ -88,7 +87,7 @@
             haben wir uns bei der TV-Show, die Höhle der Löwen beworben. Auch hier hat unsere Idee die Neugier der Investoren geweckt. Durch die weitere Unterstützung konnten wir unseren Traum zur Wirklichkeit machen und das Produkt weiter
             verbessern. Ein paar Monate später und mit der Hilfe der Löwen konnten wir unser Produkt so fertigstellen wie wir es wollten und Sie es verdienen. Hier sehen Sie das fertige und
             erprobte Produkt, welches wir Ihnen voller Stolz anbieten können.</p>
-          
+
         </div>
 
           <!-- <h1 class="ueberschrift-aboutus">Das Team:</h1> -->
