@@ -895,6 +895,15 @@
 
 /* -------------------------------- Styles für den Footer ------------------------------------------------- */
 
+    .pre_footer {
+      width: 100%;
+      height: auto;
+    }
+
+    .pre_footer img {
+      width: 100%;
+    }
+
     /*Das sind die Footer Spaltern, die durch diesen Text designt werden*/
     .column-footer-left,
     .column-footer-middle,
