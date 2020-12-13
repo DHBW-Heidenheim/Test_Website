@@ -238,7 +238,7 @@
     /*Das große Bild am Anfang der Startseite */
     .FrontPicture-Startseite {
       background-color: lightblue;
-      background-image: url('AdobeStock_Frontpicture1_1500x1000.jpg');
+      background-image: url('AdobeStock_Frontpicture1_1500x1000.webp');
       height: 100%;
       background-repeat: no-repeat;
       background-size: cover;
@@ -472,7 +472,7 @@
     .FrontPicture-Produktseite {
       background-color: lightblue;
                         /* damit Text besser lesbar ist */
-      background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('AdobeStock_Frontpicture2_1637x1093.jpg');
+      background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('AdobeStock_Frontpicture2_1637x1093.webp');
       height: 100%;
       background-repeat: no-repeat;
       background-size: cover;
@@ -815,7 +815,7 @@
   /*Das große Bild am Anfang der Über uns Seite*/
   .FrontPicture-Logo {
     background-color: lightblue;
-    background-image: url('neues_Logo_original.jpeg');
+    background-image: url('neues_Logo_original.webp');
     height: 75%;
     background-repeat: no-repeat;
     background-size: cover;
