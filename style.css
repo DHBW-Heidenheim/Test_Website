@@ -459,12 +459,12 @@
     padding-left: 20px;
   }
 
-/*  @media screen and (max-width:768px) {
+  @media screen and (max-width:768px) {
     .Bild-Anpassung,
     .Bild-Anpassung_2{
-      display: none;
+      width: 100%;
     }
-  } GIFS mobil entfernen*/
+  }
 
 
  /* ----------------------------Styles für die Produktseite ------------------------------------------- */
