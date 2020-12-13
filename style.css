@@ -145,7 +145,7 @@
       .nav-bar {
         background-color: #77A1D9;
         position: relative;
-        z-index: 1;        
+        z-index: 1;
       }
 
      .nav-mobile {
@@ -344,7 +344,6 @@
 
 /* Ende der Animation für Overlay bei Produktbilder */
 
-
   /* Style des GotoProduct Buttons  */
     .gotoproductbutton {
       text-align: center;
@@ -379,7 +378,6 @@
 /* Ende Styles GotoProduct Button */
 
   /* ----------------------------- Ende der Styles für die Startseite --------------------------------------- */
-
 
  /* -------------------Container und seperator, die wir auf mehreren Seiten benutzen ----------------------- */
 
@@ -431,6 +429,33 @@
  }
 
  /* -------------------Ende Container und seperator, die wir auf mehreren Seiten benutzen ------------- */
+
+ /* ----------------------- Anpassungen der Texte ----------------------------------------------------- */
+  .Anpassung-Texte-Startseite{
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 6%;
+  }
+
+  .Anpassung-Texte{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    text-align: center;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .Bild-Anpassung {
+    margin-top: 4%;
+  }
+
+  .Bild-Anpassung_2 {
+    margin-top: 6%;
+  }
 
 
  /* ----------------------------Styles für die Produktseite ------------------------------------------- */
@@ -540,12 +565,6 @@
     }
 
     /* Zweiter Container mit Produktdaten */
-    /* .container-produktdaten { */
-      /* background-color: #BDD9F2; */
-      /* margin: auto; */
-    /* } */
-
-    /* Zweiter Container mit Produktdaten */
     .container-technische-daten {
       padding: 10px 20px 10px 20px;
       background-color: #FFFFFF;
@@ -595,20 +614,6 @@
 
     .white-gap {
       padding: 10px;
-    }
-
-    .text-center {
-      text-align: center;
-    }
-
-    .m-t-35 {
-      margin-top: 35px;
-    }
-
-    .Anpassung-Texte{
-      padding-left: 5%;
-      padding-right: 5%;
-      padding-top: 2%;
     }
 
     .column-50 p {
@@ -794,17 +799,8 @@
 
     }
 
-
-
-
-
-
 /*Ende des Designs der Seite Kontakt*/
 /* ----------------------- Anfang des Styles für die Seite Übers uns -------------------------------------- */
-
-  /* .wrapper-über-uns{ */
-    /* background-color: #BDD9F2; */
-  /* } */
 
   /*Das große Bild am Anfang der Über uns Seite*/
   .FrontPicture-Logo {
@@ -973,10 +969,6 @@
       margin-top: 0.25rem;
       color: #FFFFFF
     }
-
-
-
-
 
 /* -------------------------------- Ende der Styles für den Footer ------------------------------------------------- */
 
