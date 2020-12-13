@@ -533,6 +533,12 @@
       text-align: center;
     }
 
+
+    .tutorial{
+      width: 50%;
+      height: auto;
+    }
+
     /*Tabelle mir den Technischen Daten */
     .technical_data {
       padding-left: 20%;
@@ -1028,6 +1034,10 @@
 
       .m-t-35 {
         margin-top: 0;
+      }
+
+      .tutorial{
+        width: 100%;
       }
     }
 
