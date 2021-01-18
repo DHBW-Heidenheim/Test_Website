@@ -110,6 +110,7 @@
     nav ul li a:visited:hover {
      background: #6285B3;
      color: black;
+     transition: ease-in-out all 200ms;
     }
     nav ul li a:not(:only-child):after,
     nav ul li a:visited:not(:only-child):after {
